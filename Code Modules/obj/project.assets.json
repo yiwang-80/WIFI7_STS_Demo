@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "NationalInstruments.SemiconductorTestLibrary/25.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net48/NationalInstruments.SemiconductorTestLibrary.Abstractions.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net48/NationalInstruments.SemiconductorTestLibrary.Extensions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/NationalInstruments.SemiconductorTestLibrary.Abstractions.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net48/NationalInstruments.SemiconductorTestLibrary.Extensions.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NationalInstruments.SemiconductorTestLibrary/25.0.0": {
+      "sha512": "sbNrt6Zcc4LZ71+ANNRr8K3ABG6aHPyKCWtg0U/vL2bmKdfEn+JQnsB3P9XQ+Ha0EwdJYgRIrEJ8LL6B6rxDyg==",
+      "type": "package",
+      "path": "nationalinstruments.semiconductortestlibrary/25.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net48/NationalInstruments.SemiconductorTestLibrary.Abstractions.dll",
+        "lib/net48/NationalInstruments.SemiconductorTestLibrary.Abstractions.pdb",
+        "lib/net48/NationalInstruments.SemiconductorTestLibrary.Abstractions.xml",
+        "lib/net48/NationalInstruments.SemiconductorTestLibrary.Extensions.dll",
+        "lib/net48/NationalInstruments.SemiconductorTestLibrary.Extensions.pdb",
+        "lib/net48/NationalInstruments.SemiconductorTestLibrary.Extensions.xml",
+        "nationalinstruments.semiconductortestlibrary.25.0.0.nupkg.sha512",
+        "nationalinstruments.semiconductortestlibrary.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "NationalInstruments.SemiconductorTestLibrary >= 25.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\nitest\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\nitest\\testprograms\\sts_demo\\QPF4659_0325\\Code Modules\\QPF4659_0325.csproj",
+      "projectName": "QPF4659_0325",
+      "projectPath": "C:\\Users\\nitest\\testprograms\\sts_demo\\QPF4659_0325\\Code Modules\\QPF4659_0325.csproj",
+      "packagesPath": "C:\\Users\\nitest\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nitest\\testprograms\\sts_demo\\QPF4659_0325\\Code Modules\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\nitest\\testprograms\\sts_demo\\QPF4659_0325\\Code Modules\\NuGet.Config",
+        "C:\\Users\\nitest\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Users\\nitest\\testprograms\\sts_demo\\QPF4659_0325\\Code Modules\\packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "NationalInstruments.SemiconductorTestLibrary": {
+            "target": "Package",
+            "version": "[25.0.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

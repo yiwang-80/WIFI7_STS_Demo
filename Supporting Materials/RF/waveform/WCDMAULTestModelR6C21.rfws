@@ -1,0 +1,1032 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE settings SYSTEM "settings.dtd">
+<settings>
+
+  <section name="plugins" version="2">
+    <section name="skin" version="1"/>
+    <key name="count">1</key>
+    <section name="0" version="1">
+      <section name="loader" version="1">
+        <key name="uuid">e1a99bb4-2f33-4a1f-9bab-1c74f826931b</key>
+        <key name="plugin">0063dca2-5afa-40f5-a6b8-3f08d0c0fb1c</key>
+        <key name="factory">WCDMA Generation</key>
+        <key name="instance">8EB0C466-AEFA-4650-8F97-8CB1A11DAA1A</key>
+      </section>
+      <section name="Hardware Config" version="1">
+        <key name="RF Signal Generator"></key>
+      </section>
+      <section name="WCDMA Generation" version="3">
+        <key name="CurrentCarrierDefinitionNumber">0</key>
+        <key name="MaxNumCarrierDefinitions">1</key>
+        <section name="Filter Settings" version="1">
+          <key name="FilterType">Root_Raised_Cosine</key>
+          <key name="WindowType">Parabolic</key>
+          <key name="ImpulseType">DiracImpulse</key>
+          <key name="UseEstimate">false</key>
+          <key name="FilterLength">200</key>
+          <key name="ReqACP">-7.0000000000e+01</key>
+          <key name="ReqEvm">1.0000000149e-01</key>
+          <key name="Alpha">2.1999999881e-01</key>
+          <key name="Beta">2.0000000000e+00</key>
+          <key name="userCofficientFile">No  file found.</key>
+        </section>
+        <section name="CarrierDefManager" version="3">
+          <key name="count">1</key>
+          <section name="0" version="1">
+            <section name="CarrierDefinition" version="2">
+              <key name="LinkDirection">afGen_ldUplink</key>
+              <key name="CarrierDefinitionNumber">0</key>
+              <key name="CarrierDefinitionName">Carrier_0</key>
+              <key name="FilterAutoOversampling">false</key>
+              <key name="FilterOversamplingFactor">4</key>
+              <key name="NumberOfFrames">1</key>
+              <key name="UseShortFrameGeneration">false</key>
+              <key name="SlotOffset">0</key>
+              <key name="SlotLength">15</key>
+              <key name="ShortFrameGenerationControlsEnabled">true</key>
+              <section name="Uplink" version="3">
+                <key name="UplinkConfigurationPhysicalChannel">afGenUmts_pctDPCH</key>
+                <key name="UplinkConfigurationChannelConfigCase">afGenUmts_cctCaseOne</key>
+                <key name="UplinkConfigurationUseCompressedMode">false</key>
+                <key name="UplinkConfigurationCompressedModeControlsEnabled">true</key>
+                <key name="UplinkConfigurationDpchScramblingCode">0</key>
+                <key name="UplinkConfigurationPrachScramblingCode">1</key>
+                <key name="UplinkConfigurationScramblingCodeType">afGenUmts_sctLong</key>
+                <section name="Case1" version="1">
+                  <section name="HSDPCCH" version="2">
+                    <key name="HsDpcchChannelState">false</key>
+                    <key name="HsDpcchChannelUlHsPdschMode">afGenUmts_ulHsPdschModeOneAntenna</key>
+                    <key name="HsDpcchChannelPower">0.0000000000e+00</key>
+                    <key name="HsDpcchChannelHarqAck">afGenUmts_hatZero</key>
+                    <key name="HsDpcchChannelNumberOfSlots">afGenUmts_nst15</key>
+                    <key name="HsDpcchChannelCqi">0</key>
+                    <key name="HsDpcchChannelCqiPrimary">0</key>
+                    <key name="HsDpcchChannelCqiSecondary">0</key>
+                    <key name="HsDpcchChannelCqiTypeA">0</key>
+                    <key name="HsDpcchChannelCqiTypeB">0</key>
+                    <key name="HsDpcchChannelPci">0</key>
+                    <key name="HsDpcchChannelTimingOffSet">0</key>
+                  </section>
+                  <section name="DPCCH" version="1">
+                    <key name="DpcchChannelPower">-5.4600000381e+00</key>
+                    <key name="DpcchChannelSlotFormatType">afGenUmts_sft0</key>
+                    <key name="DpcchChannelTfciIndex">3</key>
+                    <key name="DPCCHChannelTPCBits">01</key>
+                    <key name="FBIBits">0</key>
+                  </section>
+                  <section name="DataChannel" version="1">
+                    <key name="DataChannelDpchSymbolRate">afGenUmts_srt60</key>
+                    <key name="DataChannelEDpdchSymbolRate">afGenUmts_srt0</key>
+                    <section name="Dpdch-DataChannel0" version="1">
+                      <key name="ChannelPower">0.0000000000e+00</key>
+                      <section name="ChannelSource" version="1">
+                        <key name="DataSourceType">afGen_bsPrbs</key>
+                        <key name="PRBSType">afGen_ptPN9</key>
+                        <key name="PRBSSeed">464</key>
+                        <key name="PatternData">0011</key>
+                        <key name="FilePath"></key>
+                        <key name="CurrentCsvFile"></key>
+                        <key name="PRBSTapMask">17</key>
+                        <key name="PRBSLength">9</key>
+                      </section>
+                    </section>
+                  </section>
+                </section>
+                <section name="Case2" version="1">
+                  <section name="HSDPCCH" version="2">
+                    <key name="HsDpcchChannelState">false</key>
+                    <key name="HsDpcchChannelUlHsPdschMode">afGenUmts_ulHsPdschModeOneAntenna</key>
+                    <key name="HsDpcchChannelPower">0.0000000000e+00</key>
+                    <key name="HsDpcchChannelHarqAck">afGenUmts_hatZero</key>
+                    <key name="HsDpcchChannelNumberOfSlots">afGenUmts_nst15</key>
+                    <key name="HsDpcchChannelCqi">0</key>
+                    <key name="HsDpcchChannelCqiPrimary">0</key>
+                    <key name="HsDpcchChannelCqiSecondary">0</key>
+                    <key name="HsDpcchChannelCqiTypeA">0</key>
+                    <key name="HsDpcchChannelCqiTypeB">0</key>
+                    <key name="HsDpcchChannelPci">0</key>
+                    <key name="HsDpcchChannelTimingOffSet">0</key>
+                  </section>
+                  <section name="E-DPCCH" version="1">
+                    <key name="EDpcchChannelPower">0.0000000000e+00</key>
+                  </section>
+                  <section name="DPCCH" version="1">
+                    <key name="DpcchChannelPower">0.0000000000e+00</key>
+                    <key name="DpcchChannelSlotFormatType">afGenUmts_sft0</key>
+                    <key name="DpcchChannelTfciIndex">0</key>
+                    <key name="DPCCHChannelTPCBits">0</key>
+                    <key name="FBIBits">0</key>
+                  </section>
+                  <section name="DataChannel" version="1">
+                    <key name="DataChannelDpchSymbolRate">afGenUmts_srt0</key>
+                    <key name="DataChannelEDpdchSymbolRate">afGenUmts_srt0</key>
+                  </section>
+                </section>
+                <section name="Case3" version="1">
+                  <section name="HSDPCCH" version="2">
+                    <key name="HsDpcchChannelState">false</key>
+                    <key name="HsDpcchChannelUlHsPdschMode">afGenUmts_ulHsPdschModeOneAntenna</key>
+                    <key name="HsDpcchChannelPower">0.0000000000e+00</key>
+                    <key name="HsDpcchChannelHarqAck">afGenUmts_hatZero</key>
+                    <key name="HsDpcchChannelNumberOfSlots">afGenUmts_nst15</key>
+                    <key name="HsDpcchChannelCqi">0</key>
+                    <key name="HsDpcchChannelCqiPrimary">0</key>
+                    <key name="HsDpcchChannelCqiSecondary">0</key>
+                    <key name="HsDpcchChannelCqiTypeA">0</key>
+                    <key name="HsDpcchChannelCqiTypeB">0</key>
+                    <key name="HsDpcchChannelPci">0</key>
+                    <key name="HsDpcchChannelTimingOffSet">0</key>
+                  </section>
+                  <section name="E-DPCCH" version="1">
+                    <key name="EDpcchChannelPower">0.0000000000e+00</key>
+                  </section>
+                  <section name="DPCCH" version="1">
+                    <key name="DpcchChannelPower">0.0000000000e+00</key>
+                    <key name="DpcchChannelSlotFormatType">afGenUmts_sft0</key>
+                    <key name="DpcchChannelTfciIndex">0</key>
+                    <key name="DPCCHChannelTPCBits">0</key>
+                    <key name="FBIBits">0</key>
+                  </section>
+                  <section name="DataChannel" version="1">
+                    <key name="DataChannelDpchSymbolRate">afGenUmts_srt0</key>
+                    <key name="DataChannelEDpdchSymbolRate">afGenUmts_srt15</key>
+                    <section name="EDpdch-DataChannel0" version="1">
+                      <key name="ChannelPower">0.0000000000e+00</key>
+                      <section name="ChannelSource" version="1">
+                        <key name="DataSourceType">afGen_bsPrbs</key>
+                        <key name="PRBSType">afGen_ptPN9</key>
+                        <key name="PRBSSeed">1</key>
+                        <key name="PatternData">0011</key>
+                        <key name="FilePath"></key>
+                        <key name="CurrentCsvFile"></key>
+                        <key name="PRBSTapMask">17</key>
+                        <key name="PRBSLength">9</key>
+                      </section>
+                    </section>
+                  </section>
+                </section>
+                <section name="PRACH" version="1">
+                  <key name="PrachChannelMessageLength">1</key>
+                  <key name="PrachChannelNumberOfPreamble">1</key>
+                  <key name="PrachChannelPreambleSignature">0</key>
+                  <key name="PrachChannelPreamblePower">0.0000000000e+00</key>
+                  <key name="PrachChannelControlPower">0.0000000000e+00</key>
+                  <key name="PrachChannelDataPower">0.0000000000e+00</key>
+                  <key name="PrachChannelTfciIndex">0</key>
+                  <key name="PrachChannelPrachSymbolRate">afGenUmts_srt120</key>
+                  <section name="ChannelSource" version="1">
+                    <key name="DataSourceType">afGen_bsPrbs</key>
+                    <key name="PRBSType">afGen_ptPN9</key>
+                    <key name="PRBSSeed">1</key>
+                    <key name="PatternData">0011</key>
+                    <key name="FilePath"></key>
+                    <key name="CurrentCsvFile"></key>
+                    <key name="PRBSTapMask">17</key>
+                    <key name="PRBSLength">9</key>
+                  </section>
+                </section>
+                <section name="CompressedMode" version="1">
+                  <key name="CompressedModeMethod">afGenUmts_cmmSfOverTwo</key>
+                  <key name="CompressedModePowerOffSetMode">afGenUmts_pomAuto</key>
+                  <key name="CompressedModePowerOffSet">0.0000000000e+00</key>
+                  <key name="CompressedModeFrameStructure">afGenUmts_fsTypeA</key>
+                  <section name="TG1" version="1">
+                    <key name="TGPatternTgsn">0</key>
+                    <key name="TGPatternTgl1">3</key>
+                    <key name="TGPatternTgl2">3</key>
+                    <key name="TGPatternTgd">20</key>
+                    <key name="TGPatternTgpl">2</key>
+                  </section>
+                  <section name="TG2" version="1">
+                    <key name="TGPatternTgsn">0</key>
+                    <key name="TGPatternTgl1">3</key>
+                    <key name="TGPatternTgl2">3</key>
+                    <key name="TGPatternTgd">20</key>
+                    <key name="TGPatternTgpl">2</key>
+                  </section>
+                </section>
+              </section>
+              <section name="Downlink" version="2">
+                <key name="DownlinkConfigurationUseCompressedMode">false</key>
+                <key name="DownlinkConfigurationScramblingCode">0</key>
+                <key name="DownlinkConfigurationScramblingCodeGroup">0</key>
+                <key name="DownlinkConfigurationControlToDataGain">0.0000000000e+00</key>
+                <key name="DownlinkConfigurationUseTfci">true</key>
+                <key name="DownlinkConfigurationTfciIndex">0</key>
+                <key name="DownlinkConfigurationDlHsPdschMode">afGenUmts_dlHsPdschModeSisoDiversity</key>
+                <key name="DownlinkConfigurationNumberOfPiPerFrame">afGenUmts_pitNp18</key>
+                <key name="DownlinkConfigurationNumberOfAntennas">afGenUmts_noa1</key>
+                <key name="DownlinkConfigurationTransmitDiversityForNonHSChannels">false</key>
+                <key name="DownlinkConfigurationUseSyncChannels">false</key>
+                <key name="DownlinkConfigurationPrimarySchPower">0.0000000000e+00</key>
+                <key name="DownlinkConfigurationSecondarySchPower">0.0000000000e+00</key>
+                <section name="DLChannels" version="1">
+                  <section name="UserChannels" version="1">
+                    <key name="count">0</key>
+                  </section>
+                  <section name="P-CPICH" version="1">
+                    <section name="DLChannel" version="2">
+                      <key name="DownlinkChannelState">true</key>
+                      <key name="DLChannelPrecodingPattern">0</key>
+                      <key name="DLChannelTxPattern">1</key>
+                      <key name="DLChannelTPCBits"></key>
+                      <key name="DownlinkChannelPower">0.0000000000e+00</key>
+                      <key name="DownlinkChannelNumberOfSlots">afGenUmts_nst15</key>
+                      <key name="DownlinkChannelTimingOffSet">0</key>
+                      <key name="DownlinkChannelChannelCode">0</key>
+                      <key name="DownlinkChannelSlotFormatType">afGenUmts_sft0</key>
+                      <key name="DownlinkChannelSequenceIndex">0</key>
+                      <key name="DownlinkChannelRelativeGrant">afGenUmts_rgtRgMinusOne</key>
+                      <key name="DownlinkChannelMultiCodeChannel">false</key>
+                      <key name="DownlinkChannelDiversity">false</key>
+                      <key name="DownlinkChannelHsScchOrderType">afGenUmts_hsot0</key>
+                      <key name="DownlinkChannelHsScchOrderInfo">afGenUmts_hsoiAct</key>
+                      <key name="DownlinkChannelSendHsScchOrder">false</key>
+                      <key name="DownlinkChannelHsScchOrderApplicability">afGenUmts_hsoaDtx</key>
+                      <key name="DownlinkChannelSlotFormat2">afGenUmts_sftQPSK</key>
+                      <key name="DownlinkChannelUeId">65536</key>
+                      <section name="ChannelSource" version="1">
+                        <key name="DataSourceType">afGen_bsZeros</key>
+                        <key name="PRBSType">afGen_ptPN9</key>
+                        <key name="PRBSSeed">1</key>
+                        <key name="PatternData">0011</key>
+                        <key name="FilePath"></key>
+                        <key name="CurrentCsvFile"></key>
+                        <key name="PRBSTapMask">17</key>
+                        <key name="PRBSLength">9</key>
+                      </section>
+                    </section>
+                  </section>
+                  <section name="S-CPICH" version="1">
+                    <section name="DLChannel" version="2">
+                      <key name="DownlinkChannelState">false</key>
+                      <key name="DLChannelPrecodingPattern">0</key>
+                      <key name="DLChannelTxPattern">1</key>
+                      <key name="DLChannelTPCBits"></key>
+                      <key name="DownlinkChannelPower">0.0000000000e+00</key>
+                      <key name="DownlinkChannelNumberOfSlots">afGenUmts_nst15</key>
+                      <key name="DownlinkChannelTimingOffSet">0</key>
+                      <key name="DownlinkChannelChannelCode">0</key>
+                      <key name="DownlinkChannelSlotFormatType">afGenUmts_sft0</key>
+                      <key name="DownlinkChannelSequenceIndex">0</key>
+                      <key name="DownlinkChannelRelativeGrant">afGenUmts_rgtRgMinusOne</key>
+                      <key name="DownlinkChannelMultiCodeChannel">false</key>
+                      <key name="DownlinkChannelDiversity">false</key>
+                      <key name="DownlinkChannelHsScchOrderType">afGenUmts_hsot0</key>
+                      <key name="DownlinkChannelHsScchOrderInfo">afGenUmts_hsoiAct</key>
+                      <key name="DownlinkChannelSendHsScchOrder">false</key>
+                      <key name="DownlinkChannelHsScchOrderApplicability">afGenUmts_hsoaDtx</key>
+                      <key name="DownlinkChannelSlotFormat2">afGenUmts_sftQPSK</key>
+                      <key name="DownlinkChannelUeId">65536</key>
+                      <section name="ChannelSource" version="1">
+                        <key name="DataSourceType">afGen_bsZeros</key>
+                        <key name="PRBSType">afGen_ptPN9</key>
+                        <key name="PRBSSeed">1</key>
+                        <key name="PatternData">0011</key>
+                        <key name="FilePath"></key>
+                        <key name="CurrentCsvFile"></key>
+                        <key name="PRBSTapMask">17</key>
+                        <key name="PRBSLength">9</key>
+                      </section>
+                    </section>
+                  </section>
+                  <section name="P-CCPCH" version="1">
+                    <section name="DLChannel" version="2">
+                      <key name="DownlinkChannelState">false</key>
+                      <key name="DLChannelPrecodingPattern">0</key>
+                      <key name="DLChannelTxPattern">1</key>
+                      <key name="DLChannelTPCBits"></key>
+                      <key name="DownlinkChannelPower">0.0000000000e+00</key>
+                      <key name="DownlinkChannelNumberOfSlots">afGenUmts_nst15</key>
+                      <key name="DownlinkChannelTimingOffSet">0</key>
+                      <key name="DownlinkChannelChannelCode">1</key>
+                      <key name="DownlinkChannelSlotFormatType">afGenUmts_sft0</key>
+                      <key name="DownlinkChannelSequenceIndex">0</key>
+                      <key name="DownlinkChannelRelativeGrant">afGenUmts_rgtRgMinusOne</key>
+                      <key name="DownlinkChannelMultiCodeChannel">false</key>
+                      <key name="DownlinkChannelDiversity">false</key>
+                      <key name="DownlinkChannelHsScchOrderType">afGenUmts_hsot0</key>
+                      <key name="DownlinkChannelHsScchOrderInfo">afGenUmts_hsoiAct</key>
+                      <key name="DownlinkChannelSendHsScchOrder">false</key>
+                      <key name="DownlinkChannelHsScchOrderApplicability">afGenUmts_hsoaDtx</key>
+                      <key name="DownlinkChannelSlotFormat2">afGenUmts_sftQPSK</key>
+                      <key name="DownlinkChannelUeId">65536</key>
+                      <section name="ChannelSource" version="1">
+                        <key name="DataSourceType">afGen_bsPrbs</key>
+                        <key name="PRBSType">afGen_ptPN9</key>
+                        <key name="PRBSSeed">1</key>
+                        <key name="PatternData">0011</key>
+                        <key name="FilePath"></key>
+                        <key name="CurrentCsvFile"></key>
+                        <key name="PRBSTapMask">17</key>
+                        <key name="PRBSLength">9</key>
+                      </section>
+                    </section>
+                  </section>
+                  <section name="S-CCPCH" version="1">
+                    <section name="DLChannel" version="2">
+                      <key name="DownlinkChannelState">false</key>
+                      <key name="DLChannelPrecodingPattern">0</key>
+                      <key name="DLChannelTxPattern">1</key>
+                      <key name="DLChannelTPCBits"></key>
+                      <key name="DownlinkChannelPower">0.0000000000e+00</key>
+                      <key name="DownlinkChannelNumberOfSlots">afGenUmts_nst15</key>
+                      <key name="DownlinkChannelTimingOffSet">0</key>
+                      <key name="DownlinkChannelChannelCode">0</key>
+                      <key name="DownlinkChannelSlotFormatType">afGenUmts_sft0</key>
+                      <key name="DownlinkChannelSequenceIndex">0</key>
+                      <key name="DownlinkChannelRelativeGrant">afGenUmts_rgtRgMinusOne</key>
+                      <key name="DownlinkChannelMultiCodeChannel">false</key>
+                      <key name="DownlinkChannelDiversity">false</key>
+                      <key name="DownlinkChannelHsScchOrderType">afGenUmts_hsot0</key>
+                      <key name="DownlinkChannelHsScchOrderInfo">afGenUmts_hsoiAct</key>
+                      <key name="DownlinkChannelSendHsScchOrder">false</key>
+                      <key name="DownlinkChannelHsScchOrderApplicability">afGenUmts_hsoaDtx</key>
+                      <key name="DownlinkChannelSlotFormat2">afGenUmts_sftQPSK</key>
+                      <key name="DownlinkChannelUeId">65536</key>
+                      <section name="ChannelSource" version="1">
+                        <key name="DataSourceType">afGen_bsPrbs</key>
+                        <key name="PRBSType">afGen_ptPN9</key>
+                        <key name="PRBSSeed">1</key>
+                        <key name="PatternData">0011</key>
+                        <key name="FilePath"></key>
+                        <key name="CurrentCsvFile"></key>
+                        <key name="PRBSTapMask">17</key>
+                        <key name="PRBSLength">9</key>
+                      </section>
+                    </section>
+                  </section>
+                  <section name="PDSCH" version="1">
+                    <section name="DLChannel" version="2">
+                      <key name="DownlinkChannelState">false</key>
+                      <key name="DLChannelPrecodingPattern">0</key>
+                      <key name="DLChannelTxPattern">1</key>
+                      <key name="DLChannelTPCBits"></key>
+                      <key name="DownlinkChannelPower">0.0000000000e+00</key>
+                      <key name="DownlinkChannelNumberOfSlots">afGenUmts_nst15</key>
+                      <key name="DownlinkChannelTimingOffSet">0</key>
+                      <key name="DownlinkChannelChannelCode">0</key>
+                      <key name="DownlinkChannelSlotFormatType">afGenUmts_sft0</key>
+                      <key name="DownlinkChannelSequenceIndex">0</key>
+                      <key name="DownlinkChannelRelativeGrant">afGenUmts_rgtRgMinusOne</key>
+                      <key name="DownlinkChannelMultiCodeChannel">false</key>
+                      <key name="DownlinkChannelDiversity">false</key>
+                      <key name="DownlinkChannelHsScchOrderType">afGenUmts_hsot0</key>
+                      <key name="DownlinkChannelHsScchOrderInfo">afGenUmts_hsoiAct</key>
+                      <key name="DownlinkChannelSendHsScchOrder">false</key>
+                      <key name="DownlinkChannelHsScchOrderApplicability">afGenUmts_hsoaDtx</key>
+                      <key name="DownlinkChannelSlotFormat2">afGenUmts_sftQPSK</key>
+                      <key name="DownlinkChannelUeId">65536</key>
+                      <section name="ChannelSource" version="1">
+                        <key name="DataSourceType">afGen_bsPrbs</key>
+                        <key name="PRBSType">afGen_ptPN9</key>
+                        <key name="PRBSSeed">1</key>
+                        <key name="PatternData">0011</key>
+                        <key name="FilePath"></key>
+                        <key name="CurrentCsvFile"></key>
+                        <key name="PRBSTapMask">17</key>
+                        <key name="PRBSLength">9</key>
+                      </section>
+                    </section>
+                  </section>
+                  <section name="PICH" version="1">
+                    <section name="DLChannel" version="2">
+                      <key name="DownlinkChannelState">false</key>
+                      <key name="DLChannelPrecodingPattern">0</key>
+                      <key name="DLChannelTxPattern">1</key>
+                      <key name="DLChannelTPCBits"></key>
+                      <key name="DownlinkChannelPower">0.0000000000e+00</key>
+                      <key name="DownlinkChannelNumberOfSlots">afGenUmts_nst15</key>
+                      <key name="DownlinkChannelTimingOffSet">0</key>
+                      <key name="DownlinkChannelChannelCode">0</key>
+                      <key name="DownlinkChannelSlotFormatType">afGenUmts_sft0</key>
+                      <key name="DownlinkChannelSequenceIndex">0</key>
+                      <key name="DownlinkChannelRelativeGrant">afGenUmts_rgtRgMinusOne</key>
+                      <key name="DownlinkChannelMultiCodeChannel">false</key>
+                      <key name="DownlinkChannelDiversity">false</key>
+                      <key name="DownlinkChannelHsScchOrderType">afGenUmts_hsot0</key>
+                      <key name="DownlinkChannelHsScchOrderInfo">afGenUmts_hsoiAct</key>
+                      <key name="DownlinkChannelSendHsScchOrder">false</key>
+                      <key name="DownlinkChannelHsScchOrderApplicability">afGenUmts_hsoaDtx</key>
+                      <key name="DownlinkChannelSlotFormat2">afGenUmts_sftQPSK</key>
+                      <key name="DownlinkChannelUeId">65536</key>
+                      <section name="ChannelSource" version="1">
+                        <key name="DataSourceType">afGen_bsPrbs</key>
+                        <key name="PRBSType">afGen_ptPN9</key>
+                        <key name="PRBSSeed">1</key>
+                        <key name="PatternData">0011</key>
+                        <key name="FilePath"></key>
+                        <key name="CurrentCsvFile"></key>
+                        <key name="PRBSTapMask">17</key>
+                        <key name="PRBSLength">9</key>
+                      </section>
+                    </section>
+                  </section>
+                  <section name="E-AGCH" version="1">
+                    <section name="DLChannel" version="2">
+                      <key name="DownlinkChannelState">false</key>
+                      <key name="DLChannelPrecodingPattern">0</key>
+                      <key name="DLChannelTxPattern">1</key>
+                      <key name="DLChannelTPCBits"></key>
+                      <key name="DownlinkChannelPower">0.0000000000e+00</key>
+                      <key name="DownlinkChannelNumberOfSlots">afGenUmts_nst15</key>
+                      <key name="DownlinkChannelTimingOffSet">20</key>
+                      <key name="DownlinkChannelChannelCode">0</key>
+                      <key name="DownlinkChannelSlotFormatType">afGenUmts_sft0</key>
+                      <key name="DownlinkChannelSequenceIndex">0</key>
+                      <key name="DownlinkChannelRelativeGrant">afGenUmts_rgtRgMinusOne</key>
+                      <key name="DownlinkChannelMultiCodeChannel">false</key>
+                      <key name="DownlinkChannelDiversity">false</key>
+                      <key name="DownlinkChannelHsScchOrderType">afGenUmts_hsot0</key>
+                      <key name="DownlinkChannelHsScchOrderInfo">afGenUmts_hsoiAct</key>
+                      <key name="DownlinkChannelSendHsScchOrder">false</key>
+                      <key name="DownlinkChannelHsScchOrderApplicability">afGenUmts_hsoaDtx</key>
+                      <key name="DownlinkChannelSlotFormat2">afGenUmts_sftQPSK</key>
+                      <key name="DownlinkChannelUeId">65536</key>
+                      <section name="ChannelSource" version="1">
+                        <key name="DataSourceType">afGen_bsPrbs</key>
+                        <key name="PRBSType">afGen_ptPN9</key>
+                        <key name="PRBSSeed">1</key>
+                        <key name="PatternData">0011</key>
+                        <key name="FilePath"></key>
+                        <key name="CurrentCsvFile"></key>
+                        <key name="PRBSTapMask">17</key>
+                        <key name="PRBSLength">9</key>
+                      </section>
+                    </section>
+                  </section>
+                  <section name="E-RGCH" version="1">
+                    <section name="DLChannel" version="2">
+                      <key name="DownlinkChannelState">false</key>
+                      <key name="DLChannelPrecodingPattern">0</key>
+                      <key name="DLChannelTxPattern">1</key>
+                      <key name="DLChannelTPCBits"></key>
+                      <key name="DownlinkChannelPower">0.0000000000e+00</key>
+                      <key name="DownlinkChannelNumberOfSlots">afGenUmts_nst3</key>
+                      <key name="DownlinkChannelTimingOffSet">0</key>
+                      <key name="DownlinkChannelChannelCode">0</key>
+                      <key name="DownlinkChannelSlotFormatType">afGenUmts_sft1</key>
+                      <key name="DownlinkChannelSequenceIndex">0</key>
+                      <key name="DownlinkChannelRelativeGrant">afGenUmts_rgtRgOne</key>
+                      <key name="DownlinkChannelMultiCodeChannel">false</key>
+                      <key name="DownlinkChannelDiversity">false</key>
+                      <key name="DownlinkChannelHsScchOrderType">afGenUmts_hsot0</key>
+                      <key name="DownlinkChannelHsScchOrderInfo">afGenUmts_hsoiAct</key>
+                      <key name="DownlinkChannelSendHsScchOrder">false</key>
+                      <key name="DownlinkChannelHsScchOrderApplicability">afGenUmts_hsoaDtx</key>
+                      <key name="DownlinkChannelSlotFormat2">afGenUmts_sftQPSK</key>
+                      <key name="DownlinkChannelUeId">65536</key>
+                    </section>
+                  </section>
+                  <section name="E-HICH" version="1">
+                    <section name="DLChannel" version="2">
+                      <key name="DownlinkChannelState">false</key>
+                      <key name="DLChannelPrecodingPattern">0</key>
+                      <key name="DLChannelTxPattern">1</key>
+                      <key name="DLChannelTPCBits"></key>
+                      <key name="DownlinkChannelPower">0.0000000000e+00</key>
+                      <key name="DownlinkChannelNumberOfSlots">afGenUmts_nst3</key>
+                      <key name="DownlinkChannelTimingOffSet">0</key>
+                      <key name="DownlinkChannelChannelCode">0</key>
+                      <key name="DownlinkChannelSlotFormatType">afGenUmts_sft1</key>
+                      <key name="DownlinkChannelSequenceIndex">0</key>
+                      <key name="DownlinkChannelRelativeGrant">afGenUmts_rgtRgOne</key>
+                      <key name="DownlinkChannelMultiCodeChannel">false</key>
+                      <key name="DownlinkChannelDiversity">false</key>
+                      <key name="DownlinkChannelHsScchOrderType">afGenUmts_hsot0</key>
+                      <key name="DownlinkChannelHsScchOrderInfo">afGenUmts_hsoiAct</key>
+                      <key name="DownlinkChannelSendHsScchOrder">false</key>
+                      <key name="DownlinkChannelHsScchOrderApplicability">afGenUmts_hsoaDtx</key>
+                      <key name="DownlinkChannelSlotFormat2">afGenUmts_sftQPSK</key>
+                      <key name="DownlinkChannelUeId">65536</key>
+                    </section>
+                  </section>
+                </section>
+                <section name="CompressedMode" version="1">
+                  <key name="CompressedModeMethod">afGenUmts_cmmSfOverTwo</key>
+                  <key name="CompressedModePowerOffSetMode">afGenUmts_pomAuto</key>
+                  <key name="CompressedModePowerOffSet">0.0000000000e+00</key>
+                  <key name="CompressedModeFrameStructure">afGenUmts_fsTypeA</key>
+                  <section name="TG1" version="1">
+                    <key name="TGPatternTgsn">0</key>
+                    <key name="TGPatternTgl1">3</key>
+                    <key name="TGPatternTgl2">3</key>
+                    <key name="TGPatternTgd">20</key>
+                    <key name="TGPatternTgpl">2</key>
+                  </section>
+                  <section name="TG2" version="1">
+                    <key name="TGPatternTgsn">0</key>
+                    <key name="TGPatternTgl1">3</key>
+                    <key name="TGPatternTgl2">3</key>
+                    <key name="TGPatternTgd">20</key>
+                    <key name="TGPatternTgpl">2</key>
+                  </section>
+                </section>
+              </section>
+            </section>
+          </section>
+        </section>
+        <section name="CarrierSetManager" version="3">
+          <key name="count">1</key>
+          <section name="0" version="1">
+            <section name="CarrierSet" version="3">
+              <key name="OverSamplingFactor">4</key>
+              <key name="CarrierSetNumber">0</key>
+              <key name="AutoOverSampling">true</key>
+              <key name="PhaseCompensationEnabled">false</key>
+              <key name="AutoIncrementCellIdEnabled">false</key>
+              <section name="Iq Impairments" version="1">
+                <key name="AwgnState">false</key>
+                <key name="AwgnSnr">0.0000000000e+00</key>
+                <key name="AwgnBandwidth">1.0000000000e+02</key>
+                <key name="ApplyError">false</key>
+                <key name="Skew">0.0000000000e+00</key>
+                <key name="ICarrierLeak">0.0000000000e+00</key>
+                <key name="QCarrierLeak">0.0000000000e+00</key>
+                <key name="GainImbalance">0.0000000000e+00</key>
+                <key name="ApplyClipping">false</key>
+                <key name="ClippingType">Circle</key>
+                <key name="PercentageILevel">9.9999997765e-03</key>
+                <key name="PercentageQLevel">9.9999997765e-03</key>
+                <key name="ApplyBeforeFilter">false</key>
+                <key name="CoupleIandQ">false</key>
+              </section>
+              <section name="Cfr" version="3">
+                <key name="ApplyCfr">false</key>
+                <key name="Method">Clipping</key>
+                <key name="ClipUsing">Level</key>
+                <key name="FilterEnabled">Disabled</key>
+                <key name="TargetPapr">8.000000000000000000e+00</key>
+                <key name="MaxIterations">10</key>
+                <key name="WindowType">Kaiser Bessel Window</key>
+                <key name="WindowLength">10</key>
+                <key name="ShapingFactor">5</key>
+                <key name="ShapingThreshold">-5.000000000000000000e+00</key>
+              </section>
+              <section name="GraphicsSettings" version="1"/>
+              <section name="CarrierManager" version="3">
+                <key name="count">1</key>
+                <section name="0" version="1">
+                  <section name="Carrier" version="3">
+                    <key name="CarrierFileName"></key>
+                    <key name="CarrierPower">0.000000000000000000e+00</key>
+                    <key name="CarrierFrequencyOffset">0.000000000000000000e+00</key>
+                    <key name="CarrierDelay">0.000000000000000000e+00</key>
+                    <key name="CarrierSet">0</key>
+                    <key name="CarrierPhase">0.000000000000000000e+00</key>
+                    <key name="CarrierUseWrappableFrequencyOffset">false</key>
+                    <key name="CarrierUseRandomPhase">false</key>
+                    <key name="CarrierUseRandomDelay">false</key>
+                    <key name="CarrierDefinition">0</key>
+                    <key name="CarrierSubblockNumber">0</key>
+                    <key name="CarrierSubblockOffset">0.000000000000000000e+00</key>
+                    <key name="CarrierSubblockSpacingType">2</key>
+                    <key name="CarrierSubblockChannelRaster">0</key>
+                    <key name="CarrierSubblockPhaseCompensationFrequency">0.000000000000000000e+00</key>
+                    <key name="CarrierSubblockReferenceCCIndex">0</key>
+                    <key name="CarrierCCIndex">0</key>
+                  </section>
+                </section>
+              </section>
+              <section name="MarkerManager" version="1">
+                <key name="MarkerRepetitions">1</key>
+                <key name="UseMarkers">true</key>
+                <section name="Transitions" version="2">
+                  <key name="count">4</key>
+                  <section name="0" version="1">
+                    <section name="Marker" version="1">
+                      <section name="Transitions" version="1">
+                        <key name="count">0</key>
+                      </section>
+                      <key name="MarkerState">msDisabled</key>
+                      <key name="MkrProfileShape">Cosine</key>
+                      <key name="RaiseTime">0.0000000000e+00</key>
+                      <key name="FallTime">0.0000000000e+00</key>
+                    </section>
+                  </section>
+                  <section name="1" version="1">
+                    <section name="Marker" version="1">
+                      <section name="Transitions" version="1">
+                        <key name="count">0</key>
+                      </section>
+                      <key name="MarkerState">msDisabled</key>
+                      <key name="MkrProfileShape">Cosine</key>
+                      <key name="RaiseTime">0.0000000000e+00</key>
+                      <key name="FallTime">0.0000000000e+00</key>
+                    </section>
+                  </section>
+                  <section name="2" version="1">
+                    <section name="Marker" version="1">
+                      <section name="Transitions" version="1">
+                        <key name="count">0</key>
+                      </section>
+                      <key name="MarkerState">msDisabled</key>
+                      <key name="MkrProfileShape">Cosine</key>
+                      <key name="RaiseTime">0.0000000000e+00</key>
+                      <key name="FallTime">0.0000000000e+00</key>
+                    </section>
+                  </section>
+                  <section name="3" version="1">
+                    <section name="Marker" version="1">
+                      <section name="Transitions" version="1">
+                        <key name="count">0</key>
+                      </section>
+                      <key name="MarkerState">msDisabled</key>
+                      <key name="MkrProfileShape">Cosine</key>
+                      <key name="RaiseTime">0.0000000000e+00</key>
+                      <key name="FallTime">0.0000000000e+00</key>
+                    </section>
+                  </section>
+                </section>
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+      <section name="RFControlSettings" version="1">
+        <key name="CentreFrequency">2.000000000000000000e+09</key>
+        <key name="CentreLevel">0.000000000000000000e+00</key>
+        <key name="RFOn">true</key>
+        <key name="Play">false</key>
+        <key name="SingleShot">false</key>
+        <key name="CurrentArbFile"></key>
+      </section>
+      <section name="ui" version="2">
+        <section name="windows" version="2">
+          <key name="count">1</key>
+          <section name="0" version="1">
+            <section name="layouts" version="1">
+              <key name="count">1</key>
+              <section name="0" version="1">
+                <section name="views" version="1">
+                  <key name="count">5</key>
+                  <section name="0" version="1">
+                    <key name="uid">UmtsLarge</key>
+                    <key name="wid">4d250d60-43bb-4846-9f59-6e0899066bda</key>
+                    <section name="user" version="1"/>
+                  </section>
+                  <section name="1" version="1">
+                    <key name="uid">MultiCarrierPanel</key>
+                    <key name="wid">755cce52-9ab9-4c87-9733-fc7f31a9eea1</key>
+                    <section name="user" version="1"/>
+                  </section>
+                  <section name="2" version="1">
+                    <key name="uid">FilterParameterSettings</key>
+                    <key name="wid">edf9981e-dac6-4dd2-91b8-8117b542768f</key>
+                    <section name="user" version="1"/>
+                  </section>
+                  <section name="3" version="1">
+                    <key name="uid">ImpairmentParameterSettings</key>
+                    <key name="wid">0417f41d-7d3d-4dab-bbcd-2241eebbf41c</key>
+                    <section name="user" version="1"/>
+                  </section>
+                  <section name="4" version="1">
+                    <key name="uid">GraphicsPanel</key>
+                    <key name="wid">8f0c1bec-4bb5-4fe1-bbdf-abbe05b88050</key>
+                    <section name="user" version="3">
+                      <key name="CurrentGraph">Constellation</key>
+                      <key name="Deactivated">false</key>
+                      <section name="MarkerSettings" version="2">
+                        <section name="Marker 1" version="3">
+                          <section name="Polar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="XPolar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Samples" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Frequency" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="PowerCcdf" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                        </section>
+                        <section name="Marker 2" version="3">
+                          <section name="Polar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="XPolar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Samples" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Frequency" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="PowerCcdf" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                        </section>
+                        <section name="Marker 3" version="3">
+                          <section name="Polar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="XPolar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Samples" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Frequency" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="PowerCcdf" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                        </section>
+                        <section name="Marker 4" version="3">
+                          <section name="Polar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="XPolar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Samples" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Frequency" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="PowerCcdf" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                        </section>
+                        <section name="Delta" version="3">
+                          <section name="Polar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="XPolar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Samples" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Frequency" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="PowerCcdf" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                        </section>
+                      </section>
+                      <section name="PlotSettings" version="1">
+                        <key name="Graticule">true</key>
+                      </section>
+                      <section name="IQ Vector" version="3">
+                        <section name="IQ Vector" version="3">
+                          <key name="PlotAllData">true</key>
+                        </section>
+                        <section name="XPolar" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <section name="YPolar" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <key name="IsVectorPlot">true</key>
+                        <section name="IQ" version="1"/>
+                      </section>
+                      <section name="IQ vs Time" version="3">
+                        <section name="IQ vs Time" version="3">
+                          <key name="PlotAllData">true</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-1.000000000000000000e+00</key>
+                          <key name="DefMax">1.000000000000000000e+00</key>
+                          <key name="Min">-1.000000000000000000e+00</key>
+                          <key name="Max">1.000000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.147483647000000000e+09</key>
+                          <key name="DefMax">2.147483646000000000e+09</key>
+                          <key name="Min">-2.147483647000000000e+09</key>
+                          <key name="Max">2.147483646000000000e+09</key>
+                        </section>
+                        <section name="I" version="1"/>
+                        <section name="Q" version="1"/>
+                      </section>
+                      <section name="Phase vs Time" version="3">
+                        <section name="Phase vs Time" version="3">
+                          <key name="PlotAllData">true</key>
+                          <key name="Function">0</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-4.000000000000000000e+00</key>
+                          <key name="DefMax">4.000000000000000000e+00</key>
+                          <key name="Min">-4.000000000000000000e+00</key>
+                          <key name="Max">4.000000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.147483647000000000e+09</key>
+                          <key name="DefMax">2.147483646000000000e+09</key>
+                          <key name="Min">-2.147483647000000000e+09</key>
+                          <key name="Max">2.147483646000000000e+09</key>
+                        </section>
+                      </section>
+                      <section name="Power vs Time" version="4">
+                        <section name="Power vs Time" version="4">
+                          <key name="PlotAllData">true</key>
+                          <key name="Function">0</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-9.000000000000000000e+01</key>
+                          <key name="DefMax">1.000000000000000000e+01</key>
+                          <key name="Min">-9.000000000000000000e+01</key>
+                          <key name="Max">1.000000000000000000e+01</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.147483647000000000e+09</key>
+                          <key name="DefMax">2.147483646000000000e+09</key>
+                          <key name="Min">-2.147483647000000000e+09</key>
+                          <key name="Max">2.147483646000000000e+09</key>
+                        </section>
+                      </section>
+                      <section name="Freq vs Time" version="3">
+                        <section name="Freq vs Time" version="3">
+                          <key name="PlotAllData">true</key>
+                          <key name="Function">0</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-2.500000000000000000e+04</key>
+                          <key name="DefMax">2.500000000000000000e+04</key>
+                          <key name="Min">-2.500000000000000000e+04</key>
+                          <key name="Max">2.500000000000000000e+04</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.147483647000000000e+09</key>
+                          <key name="DefMax">2.147483646000000000e+09</key>
+                          <key name="Min">-2.147483647000000000e+09</key>
+                          <key name="Max">2.147483646000000000e+09</key>
+                        </section>
+                      </section>
+                      <section name="Spectrum" version="4">
+                        <section name="Spectrum" version="4">
+                          <key name="WindowApplied">true</key>
+                          <key name="AnnotationDisplayed">true</key>
+                          <key name="Function">0</key>
+                        </section>
+                      </section>
+                      <section name="Scales" version="1">
+                        <section name="Samples" version="1">
+                          <key name="DefMin">-1.000000000000000000e+00</key>
+                          <key name="DefMax">-1.000000000000000000e+00</key>
+                          <key name="Min">-1.000000000000000000e+00</key>
+                          <key name="Max">1.000000000000000000e+00</key>
+                        </section>
+                      </section>
+                      <section name="IQ vs Time (Wrapped)" version="3">
+                        <section name="y" version="1">
+                          <key name="DefMin">-1.000000000000000000e+00</key>
+                          <key name="DefMax">1.000000000000000000e+00</key>
+                          <key name="Min">-1.000000000000000000e+00</key>
+                          <key name="Max">1.000000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.147483647000000000e+09</key>
+                          <key name="DefMax">2.147483646000000000e+09</key>
+                          <key name="Min">-2.147483647000000000e+09</key>
+                          <key name="Max">2.147483646000000000e+09</key>
+                        </section>
+                        <section name="I" version="1"/>
+                        <section name="Q" version="1"/>
+                      </section>
+                      <section name="Constellation" version="3">
+                        <section name="Constellation" version="3">
+                          <key name="PlotAllData">false</key>
+                        </section>
+                        <section name="XPolar" version="1">
+                          <key name="DefMin">-1.500000000000000000e+00</key>
+                          <key name="DefMax">1.500000000000000000e+00</key>
+                          <key name="Min">-1.500000000000000000e+00</key>
+                          <key name="Max">1.500000000000000000e+00</key>
+                        </section>
+                        <section name="YPolar" version="1">
+                          <key name="DefMin">-1.500000000000000000e+00</key>
+                          <key name="DefMax">1.500000000000000000e+00</key>
+                          <key name="Min">-1.500000000000000000e+00</key>
+                          <key name="Max">1.500000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-1.685792349726775941e+00</key>
+                          <key name="Max">1.685792349726775941e+00</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-1.500000000000000000e+00</key>
+                          <key name="Max">1.500000000000000000e+00</key>
+                        </section>
+                        <key name="IsVectorPlot">false</key>
+                        <section name="IQ" version="1"/>
+                      </section>
+                      <section name="CCDF" version="4">
+                        <section name="CCDF" version="4">
+                          <key name="WindowApplied">true</key>
+                          <key name="AnnotationDisplayed">true</key>
+                          <key name="Function">0</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">0.000000000000000000e+00</key>
+                          <key name="DefMax">1.000000000000000000e+02</key>
+                          <key name="Min">0.000000000000000000e+00</key>
+                          <key name="Max">1.000000000000000000e+02</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.000000000000000000e+01</key>
+                          <key name="DefMax">1.500000000000000000e+01</key>
+                          <key name="Min">-2.000000000000000000e+01</key>
+                          <key name="Max">1.500000000000000000e+01</key>
+                        </section>
+                      </section>
+                    </section>
+                  </section>
+                </section>
+                <key name="uid">f7c2184d-639f-4407-8273-f8f54cef1873</key>
+                <key name="layout"></key>
+              </section>
+            </section>
+            <key name="uid">c807f74a-56b3-4cbb-b779-09f5939a18cb</key>
+            <key name="width">1040</key>
+            <key name="height">762</key>
+          </section>
+        </section>
+        <key name="preventActivate">false</key>
+        <key name="uid">8EB0C466-AEFA-4650-8F97-8CB1A11DAA1A</key>
+      </section>
+    </section>
+  </section>
+
+</settings>

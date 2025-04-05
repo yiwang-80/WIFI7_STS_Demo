@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="26518A348453D0B474A752B3D328A5B05AEE60E22025AADCFC280D218F2F0E83BF31A6BF3715DEB2E3545A0EB5E2B5F96FD734E865D0901467B60C796E784AF3" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.13.3.49862" FeatureSetName="Digital Pattern Editor" Name="http://www.ni.com/PatternBasedDigital" OldestCompatibleVersion="4.5.0.0" Version="5.3.1.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.13.3.49862" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.13.3.49862" Name="Digital Pattern Editor" Version="24.6.0" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="1" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="3" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Id="49" ModelDefinitionType="{http://www.ni.com/PatternBasedDigital}CaptureResultsDefinition" Name="CaptureResults">
+				<CaptureResultsDefinition xmlns="http://www.ni.com/PatternBasedDigital" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="51" ModelDefinitionType="{http://www.ni.com/PatternBasedDigital}BurstResultsDefinition" Name="BurstResults">
+				<BurstResultsDefinition xmlns="http://www.ni.com/PatternBasedDigital" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Id="53" ModelDefinitionType="{http://www.ni.com/PatternBasedDigital}DigitalScopeDefinition" Name="DigitalScope">
+				<DigitalScopeDefinition xmlns="http://www.ni.com/PatternBasedDigital" />
+			</EmbeddedDefinitionReference>
+			<FileReference Id="54" ModelDefinitionType="PinMap" Name="QPF4659_X2.pinmap" StoragePath="Pin Maps\QPF4659_X2.pinmap" p4:IsActive="True" xmlns:p4="http://www.ni.com/PatternBasedDigital" />
+			<FileReference Id="62" ModelDefinitionType="TimingDefinition" Name="QPF4659_0325.digitiming" StoragePath="Digital\Timing\QPF4659_0325.digitiming" p4:IsActive="True" xmlns:p4="http://www.ni.com/PatternBasedDigital" />
+			<FileReference Id="c4d81872e735451c9c73b15ae9947ac2" ModelDefinitionType="PinLevelsDefinition" Name="QPF4659_0325.digilevels" StoragePath="Digital\Levels\QPF4659_0325.digilevels" p4:IsActive="True" xmlns:p4="http://www.ni.com/PatternBasedDigital" />
+			<FileReference Id="a62ffde4487243e9b2d38e9ecdbdc5a7" ModelDefinitionType="SpecificationsDefinition" Name="QPF4659_0325.specs" StoragePath="Specifications\QPF4659_0325.specs" />
+			<SourceFileReference Id="e989f99be3e04957ab5e7b44a6a0a332" ModelDefinitionType="{http://www.ni.com/PatternBasedDigital}SystemViewDefinition" Name="SystemView.digisysview" StoragePath="SystemView.digisysview" />
+			<FileReference Id="ff2fe84bdc294422adf7cda0c2bf8ca3" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="SwitchOnOffPattern.digipat" StoragePath="Digital\Compiled Patterns\SwitchOnOffPattern.digipat" />
+			<FileReference Id="2990237f299f4e51bb4b18a9ebde9557" ModelDefinitionType="DigitalPatternEditor.PatternDefinition" Name="TXPA_WLAN260US_50_Duty_Cycle.digipat" StoragePath="Digital\Compiled Patterns\TXPA_WLAN260US_50_Duty_Cycle.digipat" />
+		</NameScopingEnvoy>
+		<EmbeddedDefinitionReference Id="7" ModelDefinitionType="DigitalPatternEditor.ProjectPropertiesDefinition" Name="ProjectProperties">
+			<ProjectPropertiesDefinition xmlns="http://www.ni.com/PatternBasedDigital" />
+		</EmbeddedDefinitionReference>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>

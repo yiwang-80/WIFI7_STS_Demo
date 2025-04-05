@@ -1,0 +1,921 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE settings SYSTEM "settings.dtd">
+<settings>
+
+  <section name="plugins" version="2">
+    <section name="skin" version="1"/>
+    <key name="count">1</key>
+    <section name="0" version="1">
+      <section name="loader" version="1">
+        <key name="uuid">e1a99bb4-2f33-4a1f-9bab-1c74f826931b</key>
+        <key name="plugin">e7b73e82-ce65-45e3-822d-237d9e8cfed4</key>
+        <key name="factory">GSM Generation</key>
+        <key name="instance">821bd33c-f379-48c0-9b62-c229ea858492</key>
+      </section>
+      <section name="Hardware Config" version="1">
+        <key name="RF Signal Generator"></key>
+      </section>
+      <section name="GSM Generation" version="2">
+        <key name="ModulationType">afGen_fmtMSK</key>
+        <key name="AutoMarkers">true</key>
+        <key name="GsmType">afGen_gtGsmEdge</key>
+        <key name="NumberOfFrames">1</key>
+        <key name="FilterOversamplingFactor">6</key>
+        <key name="BaseColorCodeEdgeBerMode">0</key>
+        <key name="NetworkColorCodeEdgeBerMode">6</key>
+        <key name="SymbolRate">2.708333332999999984e+05</key>
+        <key name="LinkDirection">afGen_ldReverse</key>
+        <key name="FilterAutoOversampling">true</key>
+        <key name="BitEncodingType">afGen_betGsmDiffEncoding</key>
+        <key name="UserDefinedFreqShift">-6.7708250000e+04</key>
+        <key name="UserDefinedFreqShift1">6.7708250000e+04</key>
+        <key name="UserDefinedFreqShift2">0.0000000000e+00</key>
+        <key name="UserDefinedFreqShift3">0.0000000000e+00</key>
+        <key name="ProfileShape">afGen_rtCosSquared</key>
+        <key name="RiseTime">3.0000000000e+00</key>
+        <key name="FallTime">3.0000000000e+00</key>
+        <key name="RiseTimeDelay">0.0000000000e+00</key>
+        <key name="FallTimeDelay">0.0000000000e+00</key>
+        <section name="Iq Impairments" version="1">
+          <key name="AwgnState">false</key>
+          <key name="AwgnSnr">0.0000000000e+00</key>
+          <key name="AwgnBandwidth">1.0000000000e+02</key>
+          <key name="ApplyError">false</key>
+          <key name="Skew">0.0000000000e+00</key>
+          <key name="ICarrierLeak">0.0000000000e+00</key>
+          <key name="QCarrierLeak">0.0000000000e+00</key>
+          <key name="GainImbalance">0.0000000000e+00</key>
+          <key name="ApplyClipping">false</key>
+          <key name="ClippingType">Circle</key>
+          <key name="PercentageILevel">9.9999997765e-03</key>
+          <key name="PercentageQLevel">9.9999997765e-03</key>
+          <key name="ApplyBeforeFilter">false</key>
+          <key name="CoupleIandQ">false</key>
+        </section>
+        <section name="MarkerManager" version="1">
+          <key name="MarkerRepetitions">1</key>
+          <key name="UseMarkers">true</key>
+          <section name="Transitions" version="2">
+            <key name="count">4</key>
+            <section name="0" version="1">
+              <section name="Marker" version="1">
+                <section name="Transitions" version="1">
+                  <key name="count">1</key>
+                  <section name="0" version="1">
+                    <section name="Transition" version="1">
+                      <key name="OnTime">0</key>
+                      <key name="OffTime">148</key>
+                      <key name="Attenuation">0.0000000000e+00</key>
+                    </section>
+                  </section>
+                </section>
+                <key name="MarkerState">msIQProfiling</key>
+                <key name="MkrProfileShape">Cosine</key>
+                <key name="RaiseTime">0.0000000000e+00</key>
+                <key name="FallTime">0.0000000000e+00</key>
+              </section>
+            </section>
+            <section name="1" version="1">
+              <section name="Marker" version="1">
+                <section name="Transitions" version="1">
+                  <key name="count">0</key>
+                </section>
+                <key name="MarkerState">msDisabled</key>
+                <key name="MkrProfileShape">Cosine</key>
+                <key name="RaiseTime">0.0000000000e+00</key>
+                <key name="FallTime">0.0000000000e+00</key>
+              </section>
+            </section>
+            <section name="2" version="1">
+              <section name="Marker" version="1">
+                <section name="Transitions" version="1">
+                  <key name="count">0</key>
+                </section>
+                <key name="MarkerState">msDisabled</key>
+                <key name="MkrProfileShape">Cosine</key>
+                <key name="RaiseTime">0.0000000000e+00</key>
+                <key name="FallTime">0.0000000000e+00</key>
+              </section>
+            </section>
+            <section name="3" version="1">
+              <section name="Marker" version="1">
+                <section name="Transitions" version="1">
+                  <key name="count">0</key>
+                </section>
+                <key name="MarkerState">msDisabled</key>
+                <key name="MkrProfileShape">Cosine</key>
+                <key name="RaiseTime">0.0000000000e+00</key>
+                <key name="FallTime">0.0000000000e+00</key>
+              </section>
+            </section>
+          </section>
+        </section>
+        <section name="Filter Settings" version="1">
+          <key name="FilterType">Gaussian_GSM</key>
+          <key name="WindowType">None</key>
+          <key name="ImpulseType">DiracImpulse</key>
+          <key name="UseEstimate">false</key>
+          <key name="FilterLength">8</key>
+          <key name="ReqACP">-7.0000000000e+01</key>
+          <key name="ReqEvm">1.0000000149e-01</key>
+          <key name="Alpha">3.0000001192e-01</key>
+          <key name="Beta">2.0000000000e+00</key>
+          <key name="userCofficientFile">No  file found.</key>
+        </section>
+        <section name="Slot" version="1">
+          <section name="GsmSlot0" version="2">
+            <key name="SlotBurstType">afGenGsm_btEdge</key>
+            <key name="SlotState">true</key>
+            <key name="SlotPower">0.0000000000e+00</key>
+            <key name="SlotTscType">afGenGsm_ttTsc0</key>
+            <key name="SlotFrequencyCorrection">afGenGsm_fctPositiveFrequencyCorrection</key>
+            <section name="GSM Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+          </section>
+          <section name="GsmSlot1" version="2">
+            <key name="SlotBurstType">afGenGsm_btNormal</key>
+            <key name="SlotState">false</key>
+            <key name="SlotPower">0.0000000000e+00</key>
+            <key name="SlotTscType">afGenGsm_ttTsc0</key>
+            <key name="SlotFrequencyCorrection">afGenGsm_fctPositiveFrequencyCorrection</key>
+            <section name="GSM Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+          </section>
+          <section name="GsmSlot2" version="2">
+            <key name="SlotBurstType">afGenGsm_btNormal</key>
+            <key name="SlotState">false</key>
+            <key name="SlotPower">0.0000000000e+00</key>
+            <key name="SlotTscType">afGenGsm_ttTsc0</key>
+            <key name="SlotFrequencyCorrection">afGenGsm_fctPositiveFrequencyCorrection</key>
+            <section name="GSM Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+          </section>
+          <section name="GsmSlot3" version="2">
+            <key name="SlotBurstType">afGenGsm_btNormal</key>
+            <key name="SlotState">false</key>
+            <key name="SlotPower">0.0000000000e+00</key>
+            <key name="SlotTscType">afGenGsm_ttTsc0</key>
+            <key name="SlotFrequencyCorrection">afGenGsm_fctPositiveFrequencyCorrection</key>
+            <section name="GSM Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+          </section>
+          <section name="GsmSlot4" version="2">
+            <key name="SlotBurstType">afGenGsm_btNormal</key>
+            <key name="SlotState">false</key>
+            <key name="SlotPower">0.0000000000e+00</key>
+            <key name="SlotTscType">afGenGsm_ttTsc0</key>
+            <key name="SlotFrequencyCorrection">afGenGsm_fctPositiveFrequencyCorrection</key>
+            <section name="GSM Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+          </section>
+          <section name="GsmSlot5" version="2">
+            <key name="SlotBurstType">afGenGsm_btNormal</key>
+            <key name="SlotState">false</key>
+            <key name="SlotPower">0.0000000000e+00</key>
+            <key name="SlotTscType">afGenGsm_ttTsc0</key>
+            <key name="SlotFrequencyCorrection">afGenGsm_fctPositiveFrequencyCorrection</key>
+            <section name="GSM Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+          </section>
+          <section name="GsmSlot6" version="2">
+            <key name="SlotBurstType">afGenGsm_btNormal</key>
+            <key name="SlotState">false</key>
+            <key name="SlotPower">0.0000000000e+00</key>
+            <key name="SlotTscType">afGenGsm_ttTsc0</key>
+            <key name="SlotFrequencyCorrection">afGenGsm_fctPositiveFrequencyCorrection</key>
+            <section name="GSM Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+          </section>
+          <section name="GsmSlot7" version="2">
+            <key name="SlotBurstType">afGenGsm_btNormal</key>
+            <key name="SlotState">false</key>
+            <key name="SlotPower">0.0000000000e+00</key>
+            <key name="SlotTscType">afGenGsm_ttTsc0</key>
+            <key name="SlotFrequencyCorrection">afGenGsm_fctPositiveFrequencyCorrection</key>
+            <section name="GSM Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+          </section>
+        </section>
+        <section name="BerSlotEngine" version="1">
+          <section name="1" version="1">
+            <key name="BerSlotGsmPhyChType">afGen_ptTCH_F_SACCH_M</key>
+            <key name="BerSlotTscType">afGenGsm_ttTsc0</key>
+            <key name="BerSlotLoopMode">afGenGsm_lpSpeech</key>
+            <key name="BerSlotPowerLevel">0</key>
+            <key name="BerSlotPdtchMCSType">afGen_mtMCS1</key>
+            <key name="BerSlotFpcBit">true</key>
+            <key name="BerSlotIncludeMacHeader">false</key>
+            <key name="BerSlotDataEncoded">false</key>
+            <key name="BerSlotMacHeaderUsfField">000</key>
+            <key name="BerSlotMacHeaderEspField">00</key>
+            <key name="BerSlotMacHeaderRrbpField">00</key>
+            <key name="BerSlotMacHeaderTfiField">01110</key>
+            <key name="BerSlotMacHeaderPrField">00</key>
+            <key name="BerSlotMacHeaderBsn1Field">00000000000</key>
+            <key name="BerSlotMacHeaderCpsField">1011</key>
+            <key name="BerSlotMacHeaderBsn2Field">0000000000</key>
+            <key name="BerSlotMacHeaderSpbField">00</key>
+            <section name="DataSource0" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="DataSource1" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+          </section>
+          <section name="2" version="1">
+            <key name="BerSlotGsmPhyChType">afGen_ptTCH_F_SACCH_M</key>
+            <key name="BerSlotTscType">afGenGsm_ttTsc0</key>
+            <key name="BerSlotLoopMode">afGenGsm_lpSpeech</key>
+            <key name="BerSlotPowerLevel">0</key>
+            <key name="BerSlotPdtchMCSType">afGen_mtMCS1</key>
+            <key name="BerSlotFpcBit">true</key>
+            <key name="BerSlotIncludeMacHeader">false</key>
+            <key name="BerSlotDataEncoded">false</key>
+            <key name="BerSlotMacHeaderUsfField">000</key>
+            <key name="BerSlotMacHeaderEspField">00</key>
+            <key name="BerSlotMacHeaderRrbpField">00</key>
+            <key name="BerSlotMacHeaderTfiField">01110</key>
+            <key name="BerSlotMacHeaderPrField">00</key>
+            <key name="BerSlotMacHeaderBsn1Field">00000000000</key>
+            <key name="BerSlotMacHeaderCpsField">1011</key>
+            <key name="BerSlotMacHeaderBsn2Field">0000000000</key>
+            <key name="BerSlotMacHeaderSpbField">00</key>
+            <section name="DataSource0" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="DataSource1" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+          </section>
+          <section name="3" version="1">
+            <key name="BerSlotGsmPhyChType">afGen_ptTCH_F_SACCH_M</key>
+            <key name="BerSlotTscType">afGenGsm_ttTsc0</key>
+            <key name="BerSlotLoopMode">afGenGsm_lpSpeech</key>
+            <key name="BerSlotPowerLevel">0</key>
+            <key name="BerSlotPdtchMCSType">afGen_mtMCS1</key>
+            <key name="BerSlotFpcBit">true</key>
+            <key name="BerSlotIncludeMacHeader">false</key>
+            <key name="BerSlotDataEncoded">false</key>
+            <key name="BerSlotMacHeaderUsfField">000</key>
+            <key name="BerSlotMacHeaderEspField">00</key>
+            <key name="BerSlotMacHeaderRrbpField">00</key>
+            <key name="BerSlotMacHeaderTfiField">01110</key>
+            <key name="BerSlotMacHeaderPrField">00</key>
+            <key name="BerSlotMacHeaderBsn1Field">00000000000</key>
+            <key name="BerSlotMacHeaderCpsField">1011</key>
+            <key name="BerSlotMacHeaderBsn2Field">0000000000</key>
+            <key name="BerSlotMacHeaderSpbField">00</key>
+            <section name="DataSource0" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="DataSource1" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+          </section>
+          <section name="4" version="1">
+            <key name="BerSlotGsmPhyChType">afGen_ptTCH_F_SACCH_M</key>
+            <key name="BerSlotTscType">afGenGsm_ttTsc0</key>
+            <key name="BerSlotLoopMode">afGenGsm_lpSpeech</key>
+            <key name="BerSlotPowerLevel">0</key>
+            <key name="BerSlotPdtchMCSType">afGen_mtMCS1</key>
+            <key name="BerSlotFpcBit">true</key>
+            <key name="BerSlotIncludeMacHeader">false</key>
+            <key name="BerSlotDataEncoded">false</key>
+            <key name="BerSlotMacHeaderUsfField">000</key>
+            <key name="BerSlotMacHeaderEspField">00</key>
+            <key name="BerSlotMacHeaderRrbpField">00</key>
+            <key name="BerSlotMacHeaderTfiField">01110</key>
+            <key name="BerSlotMacHeaderPrField">00</key>
+            <key name="BerSlotMacHeaderBsn1Field">00000000000</key>
+            <key name="BerSlotMacHeaderCpsField">1011</key>
+            <key name="BerSlotMacHeaderBsn2Field">0000000000</key>
+            <key name="BerSlotMacHeaderSpbField">00</key>
+            <section name="DataSource0" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="DataSource1" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+          </section>
+          <section name="5" version="1">
+            <key name="BerSlotGsmPhyChType">afGen_ptTCH_F_SACCH_M</key>
+            <key name="BerSlotTscType">afGenGsm_ttTsc0</key>
+            <key name="BerSlotLoopMode">afGenGsm_lpSpeech</key>
+            <key name="BerSlotPowerLevel">0</key>
+            <key name="BerSlotPdtchMCSType">afGen_mtMCS1</key>
+            <key name="BerSlotFpcBit">true</key>
+            <key name="BerSlotIncludeMacHeader">false</key>
+            <key name="BerSlotDataEncoded">false</key>
+            <key name="BerSlotMacHeaderUsfField">000</key>
+            <key name="BerSlotMacHeaderEspField">00</key>
+            <key name="BerSlotMacHeaderRrbpField">00</key>
+            <key name="BerSlotMacHeaderTfiField">01110</key>
+            <key name="BerSlotMacHeaderPrField">00</key>
+            <key name="BerSlotMacHeaderBsn1Field">00000000000</key>
+            <key name="BerSlotMacHeaderCpsField">1011</key>
+            <key name="BerSlotMacHeaderBsn2Field">0000000000</key>
+            <key name="BerSlotMacHeaderSpbField">00</key>
+            <section name="DataSource0" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="DataSource1" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+          </section>
+          <section name="6" version="1">
+            <key name="BerSlotGsmPhyChType">afGen_ptTCH_F_SACCH_M</key>
+            <key name="BerSlotTscType">afGenGsm_ttTsc0</key>
+            <key name="BerSlotLoopMode">afGenGsm_lpSpeech</key>
+            <key name="BerSlotPowerLevel">0</key>
+            <key name="BerSlotPdtchMCSType">afGen_mtMCS1</key>
+            <key name="BerSlotFpcBit">true</key>
+            <key name="BerSlotIncludeMacHeader">false</key>
+            <key name="BerSlotDataEncoded">false</key>
+            <key name="BerSlotMacHeaderUsfField">000</key>
+            <key name="BerSlotMacHeaderEspField">00</key>
+            <key name="BerSlotMacHeaderRrbpField">00</key>
+            <key name="BerSlotMacHeaderTfiField">01110</key>
+            <key name="BerSlotMacHeaderPrField">00</key>
+            <key name="BerSlotMacHeaderBsn1Field">00000000000</key>
+            <key name="BerSlotMacHeaderCpsField">1011</key>
+            <key name="BerSlotMacHeaderBsn2Field">0000000000</key>
+            <key name="BerSlotMacHeaderSpbField">00</key>
+            <section name="DataSource0" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="DataSource1" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+          </section>
+          <section name="7" version="1">
+            <key name="BerSlotGsmPhyChType">afGen_ptTCH_F_SACCH_M</key>
+            <key name="BerSlotTscType">afGenGsm_ttTsc0</key>
+            <key name="BerSlotLoopMode">afGenGsm_lpSpeech</key>
+            <key name="BerSlotPowerLevel">0</key>
+            <key name="BerSlotPdtchMCSType">afGen_mtMCS1</key>
+            <key name="BerSlotFpcBit">true</key>
+            <key name="BerSlotIncludeMacHeader">false</key>
+            <key name="BerSlotDataEncoded">false</key>
+            <key name="BerSlotMacHeaderUsfField">000</key>
+            <key name="BerSlotMacHeaderEspField">00</key>
+            <key name="BerSlotMacHeaderRrbpField">00</key>
+            <key name="BerSlotMacHeaderTfiField">01110</key>
+            <key name="BerSlotMacHeaderPrField">00</key>
+            <key name="BerSlotMacHeaderBsn1Field">00000000000</key>
+            <key name="BerSlotMacHeaderCpsField">1011</key>
+            <key name="BerSlotMacHeaderBsn2Field">0000000000</key>
+            <key name="BerSlotMacHeaderSpbField">00</key>
+            <section name="DataSource0" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="DataSource1" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">17</key>
+              <key name="PRBSLength">9</key>
+            </section>
+          </section>
+        </section>
+      </section>
+      <section name="RFControlSettings" version="1">
+        <key name="CentreFrequency">8.900000000000000000e+08</key>
+        <key name="CentreLevel">0.000000000000000000e+00</key>
+        <key name="RFOn">true</key>
+        <key name="Play">false</key>
+        <key name="SingleShot">false</key>
+        <key name="CurrentArbFile"></key>
+      </section>
+      <section name="GraphicsSettings" version="1"/>
+      <section name="ui" version="2">
+        <section name="windows" version="2">
+          <key name="count">1</key>
+          <section name="0" version="1">
+            <section name="layouts" version="1">
+              <key name="count">1</key>
+              <section name="0" version="1">
+                <section name="views" version="1">
+                  <key name="count">4</key>
+                  <section name="0" version="1">
+                    <key name="uid">ModulationParameterSettings</key>
+                    <key name="wid">98d12c8c-31b5-417b-9083-2a408d221618</key>
+                    <section name="user" version="1"/>
+                  </section>
+                  <section name="1" version="1">
+                    <key name="uid">SlotConfigSettingsNormal</key>
+                    <key name="wid">bda1cc70-410e-425a-9e80-e49162e825d0</key>
+                    <section name="user" version="1"/>
+                  </section>
+                  <section name="2" version="1">
+                    <key name="uid">ImpairmentParameterSettings</key>
+                    <key name="wid">010da6a9-6314-48be-b6b4-fd0f99e2c714</key>
+                    <section name="user" version="1"/>
+                  </section>
+                  <section name="3" version="1">
+                    <key name="uid">GraphicsPanel</key>
+                    <key name="wid">7612a020-4718-4af4-8bc4-05095f92be4a</key>
+                    <section name="user" version="3">
+                      <key name="CurrentGraph">IQ FFT</key>
+                      <key name="Deactivated">false</key>
+                      <section name="MarkerSettings" version="2">
+                        <section name="Marker 1" version="3">
+                          <section name="Polar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="XPolar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Samples" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Frequency" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="PowerCcdf" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                        </section>
+                        <section name="Marker 2" version="3">
+                          <section name="Polar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="XPolar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Samples" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Frequency" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="PowerCcdf" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                        </section>
+                        <section name="Marker 3" version="3">
+                          <section name="Polar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="XPolar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Samples" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Frequency" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="PowerCcdf" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                        </section>
+                        <section name="Marker 4" version="3">
+                          <section name="Polar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="XPolar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Samples" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Frequency" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="PowerCcdf" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                        </section>
+                        <section name="Delta" version="3">
+                          <section name="Polar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="XPolar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Samples" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Frequency" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="PowerCcdf" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                        </section>
+                      </section>
+                      <section name="PlotSettings" version="1">
+                        <key name="Graticule">true</key>
+                      </section>
+                      <section name="IQ Vector" version="3">
+                        <section name="IQ Vector" version="3">
+                          <key name="PlotAllData">true</key>
+                        </section>
+                        <section name="XPolar" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <section name="YPolar" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <key name="IsVectorPlot">true</key>
+                        <section name="IQ" version="1"/>
+                      </section>
+                      <section name="IQ vs Time" version="3">
+                        <section name="IQ vs Time" version="3">
+                          <key name="PlotAllData">true</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-1.000000000000000000e+00</key>
+                          <key name="DefMax">1.000000000000000000e+00</key>
+                          <key name="Min">-1.000000000000000000e+00</key>
+                          <key name="Max">1.000000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.147483647000000000e+09</key>
+                          <key name="DefMax">2.147483646000000000e+09</key>
+                          <key name="Min">-2.147483647000000000e+09</key>
+                          <key name="Max">2.147483646000000000e+09</key>
+                        </section>
+                        <section name="I" version="1"/>
+                        <section name="Q" version="1"/>
+                      </section>
+                      <section name="Phase vs Time" version="3">
+                        <section name="Phase vs Time" version="3">
+                          <key name="PlotAllData">true</key>
+                          <key name="Function">0</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-4.000000000000000000e+00</key>
+                          <key name="DefMax">4.000000000000000000e+00</key>
+                          <key name="Min">-4.000000000000000000e+00</key>
+                          <key name="Max">4.000000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.147483647000000000e+09</key>
+                          <key name="DefMax">2.147483646000000000e+09</key>
+                          <key name="Min">-2.147483647000000000e+09</key>
+                          <key name="Max">2.147483646000000000e+09</key>
+                        </section>
+                      </section>
+                      <section name="Power vs Time" version="4">
+                        <section name="Power vs Time" version="4">
+                          <key name="PlotAllData">true</key>
+                          <key name="Function">0</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-9.000000000000000000e+01</key>
+                          <key name="DefMax">1.000000000000000000e+01</key>
+                          <key name="Min">-9.000000000000000000e+01</key>
+                          <key name="Max">1.000000000000000000e+01</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.147483647000000000e+09</key>
+                          <key name="DefMax">2.147483646000000000e+09</key>
+                          <key name="Min">-2.147483647000000000e+09</key>
+                          <key name="Max">2.147483646000000000e+09</key>
+                        </section>
+                      </section>
+                      <section name="Freq vs Time" version="3">
+                        <section name="Freq vs Time" version="3">
+                          <key name="PlotAllData">true</key>
+                          <key name="Function">0</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-2.500000000000000000e+04</key>
+                          <key name="DefMax">2.500000000000000000e+04</key>
+                          <key name="Min">-2.500000000000000000e+04</key>
+                          <key name="Max">2.500000000000000000e+04</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.147483647000000000e+09</key>
+                          <key name="DefMax">2.147483646000000000e+09</key>
+                          <key name="Min">-2.147483647000000000e+09</key>
+                          <key name="Max">2.147483646000000000e+09</key>
+                        </section>
+                      </section>
+                      <section name="Spectrum" version="4">
+                        <section name="Spectrum" version="4">
+                          <key name="WindowApplied">true</key>
+                          <key name="AnnotationDisplayed">true</key>
+                          <key name="Function">0</key>
+                        </section>
+                      </section>
+                      <section name="Scales" version="1">
+                        <section name="Samples" version="1">
+                          <key name="DefMin">-1.000000000000000000e+00</key>
+                          <key name="DefMax">-1.000000000000000000e+00</key>
+                          <key name="Min">-1.000000000000000000e+00</key>
+                          <key name="Max">1.000000000000000000e+00</key>
+                        </section>
+                      </section>
+                      <section name="IQ vs Time (Wrapped)" version="3">
+                        <section name="y" version="1">
+                          <key name="DefMin">-1.000000000000000000e+00</key>
+                          <key name="DefMax">1.000000000000000000e+00</key>
+                          <key name="Min">-1.000000000000000000e+00</key>
+                          <key name="Max">1.000000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.147483647000000000e+09</key>
+                          <key name="DefMax">2.147483646000000000e+09</key>
+                          <key name="Min">-2.147483647000000000e+09</key>
+                          <key name="Max">2.147483646000000000e+09</key>
+                        </section>
+                        <section name="I" version="1"/>
+                        <section name="Q" version="1"/>
+                      </section>
+                      <section name="Constellation" version="3">
+                        <section name="Constellation" version="3">
+                          <key name="PlotAllData">false</key>
+                        </section>
+                        <section name="XPolar" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <section name="YPolar" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <key name="IsVectorPlot">false</key>
+                        <section name="IQ" version="1"/>
+                      </section>
+                      <section name="CCDF" version="4">
+                        <section name="CCDF" version="4">
+                          <key name="WindowApplied">true</key>
+                          <key name="AnnotationDisplayed">true</key>
+                          <key name="Function">0</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">0.000000000000000000e+00</key>
+                          <key name="DefMax">1.000000000000000000e+02</key>
+                          <key name="Min">0.000000000000000000e+00</key>
+                          <key name="Max">1.000000000000000000e+02</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.000000000000000000e+01</key>
+                          <key name="DefMax">1.500000000000000000e+01</key>
+                          <key name="Min">-2.000000000000000000e+01</key>
+                          <key name="Max">1.500000000000000000e+01</key>
+                        </section>
+                      </section>
+                    </section>
+                  </section>
+                </section>
+                <key name="uid">f7c2184d-639f-4407-8273-f8f54cef1873</key>
+                <key name="layout"></key>
+              </section>
+            </section>
+            <key name="uid">c807f74a-56b3-4cbb-b779-09f5939a18cb</key>
+            <key name="width">1040</key>
+            <key name="height">762</key>
+          </section>
+        </section>
+        <key name="preventActivate">false</key>
+        <key name="uid">821bd33c-f379-48c0-9b62-c229ea858492</key>
+      </section>
+    </section>
+  </section>
+
+</settings>

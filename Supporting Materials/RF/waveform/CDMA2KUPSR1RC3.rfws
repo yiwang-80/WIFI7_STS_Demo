@@ -1,0 +1,1081 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE settings SYSTEM "settings.dtd">
+<settings>
+
+  <section name="plugins" version="2">
+    <section name="skin" version="1"/>
+    <key name="count">1</key>
+    <section name="0" version="1">
+      <section name="loader" version="1">
+        <key name="uuid">e1a99bb4-2f33-4a1f-9bab-1c74f826931b</key>
+        <key name="plugin">0e074ce5-8120-4452-9b8e-7f087bb73155</key>
+        <key name="factory">CDMA2k Generation</key>
+        <key name="instance">576FEBC7-5E26-4e80-A55F-15F05637DE0E</key>
+      </section>
+      <section name="Hardware Config" version="1">
+        <key name="RF Signal Generator"></key>
+      </section>
+      <section name="CDMA2k Generation" version="2">
+        <key name="LinkDirection">afGen_ldReverse</key>
+        <key name="SpreadingRate">afGenCdma2000_srtSr1</key>
+        <key name="NumberOfFrames">4</key>
+        <key name="FilterOversamplingFactor">4</key>
+        <key name="ReverseRadioConfiguration">afGenCdma2000_rct3</key>
+        <key name="ForwardRadioConfiguration">afGenCdma2000_rct1</key>
+        <key name="FilterAutoOversampling">true</key>
+        <key name="ReverseChannelGroup">afGenCdma2000_ucgTrafficRC3_6</key>
+        <key name="ForwardPilotPnOffset">0</key>
+        <key name="ForwardQuasiOrthogonalWalshSet">0</key>
+        <key name="ReverseLongCodeMask">0</key>
+        <section name="Iq Impairments" version="1">
+          <key name="AwgnState">false</key>
+          <key name="AwgnSnr">0.0000000000e+00</key>
+          <key name="AwgnBandwidth">1.0000000000e+02</key>
+          <key name="ApplyError">false</key>
+          <key name="Skew">0.0000000000e+00</key>
+          <key name="ICarrierLeak">0.0000000000e+00</key>
+          <key name="QCarrierLeak">0.0000000000e+00</key>
+          <key name="GainImbalance">0.0000000000e+00</key>
+          <key name="ApplyClipping">false</key>
+          <key name="ClippingType">Circle</key>
+          <key name="PercentageILevel">9.9999997765e-03</key>
+          <key name="PercentageQLevel">9.9999997765e-03</key>
+          <key name="ApplyBeforeFilter">false</key>
+          <key name="CoupleIandQ">false</key>
+        </section>
+        <section name="MarkerManager" version="1">
+          <key name="MarkerRepetitions">1</key>
+          <key name="UseMarkers">false</key>
+          <section name="Transitions" version="2">
+            <key name="count">4</key>
+            <section name="0" version="1">
+              <section name="Marker" version="1">
+                <section name="Transitions" version="1">
+                  <key name="count">0</key>
+                </section>
+                <key name="MarkerState">msDisabled</key>
+                <key name="MkrProfileShape">Cosine</key>
+                <key name="RaiseTime">0.0000000000e+00</key>
+                <key name="FallTime">0.0000000000e+00</key>
+              </section>
+            </section>
+            <section name="1" version="1">
+              <section name="Marker" version="1">
+                <section name="Transitions" version="1">
+                  <key name="count">0</key>
+                </section>
+                <key name="MarkerState">msDisabled</key>
+                <key name="MkrProfileShape">Cosine</key>
+                <key name="RaiseTime">0.0000000000e+00</key>
+                <key name="FallTime">0.0000000000e+00</key>
+              </section>
+            </section>
+            <section name="2" version="1">
+              <section name="Marker" version="1">
+                <section name="Transitions" version="1">
+                  <key name="count">0</key>
+                </section>
+                <key name="MarkerState">msDisabled</key>
+                <key name="MkrProfileShape">Cosine</key>
+                <key name="RaiseTime">0.0000000000e+00</key>
+                <key name="FallTime">0.0000000000e+00</key>
+              </section>
+            </section>
+            <section name="3" version="1">
+              <section name="Marker" version="1">
+                <section name="Transitions" version="1">
+                  <key name="count">0</key>
+                </section>
+                <key name="MarkerState">msDisabled</key>
+                <key name="MkrProfileShape">Cosine</key>
+                <key name="RaiseTime">0.0000000000e+00</key>
+                <key name="FallTime">0.0000000000e+00</key>
+              </section>
+            </section>
+          </section>
+        </section>
+        <section name="Filter Settings" version="1">
+          <key name="FilterType">Cdma2000_1X_Mod</key>
+          <key name="WindowType">Parabolic</key>
+          <key name="ImpulseType">DiracImpulse</key>
+          <key name="UseEstimate">false</key>
+          <key name="FilterLength">48</key>
+          <key name="ReqACP">-7.0000000000e+01</key>
+          <key name="ReqEvm">1.0000000149e-01</key>
+          <key name="Alpha">2.2000001371e-01</key>
+          <key name="Beta">2.0000000000e+00</key>
+          <key name="userCofficientFile">No  file found.</key>
+        </section>
+        <section name="Access Group" version="1">
+          <section name="ACH" version="1">
+            <key name="ChannelState">false</key>
+            <key name="ChannelPower">0.0000000000e+00</key>
+            <key name="ChannelBitSourceType">afGen_bsPrbs</key>
+            <key name="ChannelLongCodeMask">31e00000000</key>
+            <section name="Cdma 2000 Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">1</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="RC1" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt28p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSFUnknown</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC2" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt28p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSFUnknown</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+          </section>
+        </section>
+        <section name="One Two Traffic Group" version="1">
+          <section name="FCH" version="1">
+            <key name="ChannelState">true</key>
+            <key name="ChannelPower">0.0000000000e+00</key>
+            <key name="ChannelBitSourceType">afGen_bsPrbs</key>
+            <key name="ChannelLongCodeMask">00000000000</key>
+            <section name="Cdma 2000 Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">1</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="RC1" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt28p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSFUnknown</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC2" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt28p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSFUnknown</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+          </section>
+        </section>
+        <section name="Enhanced Access Group" version="1">
+          <section name="PICH" version="1">
+            <key name="ChannelState">false</key>
+            <key name="ChannelPower">0.0000000000e+00</key>
+            <key name="ChannelBitSourceType">afGen_bsZeros</key>
+            <key name="ChannelLongCodeMask"></key>
+            <section name="Cdma 2000 Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsZeros</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">1</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="RC3" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt38p4</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF32</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC4" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt38p4</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF32</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC5" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt38p4</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF32</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC6" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt38p4</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF32</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+          </section>
+          <section name="EACH" version="1">
+            <key name="ChannelState">false</key>
+            <key name="ChannelPower">0.0000000000e+00</key>
+            <key name="ChannelBitSourceType">afGen_bsPrbs</key>
+            <key name="ChannelLongCodeMask"></key>
+            <section name="Cdma 2000 Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">1</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="RC3" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt153p6</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF8</key>
+              <key name="ChannelWalshCode">2</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC4" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt153p6</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF8</key>
+              <key name="ChannelWalshCode">2</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC5" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt153p6</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF8</key>
+              <key name="ChannelWalshCode">2</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC6" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt153p6</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF8</key>
+              <key name="ChannelWalshCode">2</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+          </section>
+        </section>
+        <section name="Common Control Group" version="1">
+          <section name="PICH" version="1">
+            <key name="ChannelState">false</key>
+            <key name="ChannelPower">0.0000000000e+00</key>
+            <key name="ChannelBitSourceType">afGen_bsZeros</key>
+            <key name="ChannelLongCodeMask"></key>
+            <section name="Cdma 2000 Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsZeros</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">1</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="RC3" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt38p4</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF32</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC4" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt38p4</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF32</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC5" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt38p4</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF32</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC6" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt38p4</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF32</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+          </section>
+          <section name="CCCH" version="1">
+            <key name="ChannelState">false</key>
+            <key name="ChannelPower">0.0000000000e+00</key>
+            <key name="ChannelBitSourceType">afGen_bsPrbs</key>
+            <key name="ChannelLongCodeMask"></key>
+            <section name="Cdma 2000 Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">1</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="RC3" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt153p6</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF8</key>
+              <key name="ChannelWalshCode">2</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC4" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt153p6</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF8</key>
+              <key name="ChannelWalshCode">2</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC5" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt153p6</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF8</key>
+              <key name="ChannelWalshCode">2</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC6" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt153p6</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF8</key>
+              <key name="ChannelWalshCode">2</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+          </section>
+        </section>
+        <section name="Three Six Traffic Group" version="1">
+          <section name="PICH" version="1">
+            <key name="ChannelState">true</key>
+            <key name="ChannelPower">-5.0000000000e+00</key>
+            <key name="ChannelBitSourceType">afGen_bsZeros</key>
+            <key name="ChannelLongCodeMask"></key>
+            <section name="Cdma 2000 Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsZeros</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">1</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="RC3" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt38p4</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF32</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC4" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt38p4</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF32</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC5" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt38p4</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF32</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC6" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt38p4</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF32</key>
+              <key name="ChannelWalshCode">0</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+          </section>
+          <section name="DCCH" version="1">
+            <key name="ChannelState">false</key>
+            <key name="ChannelPower">0.0000000000e+00</key>
+            <key name="ChannelBitSourceType">afGen_bsPrbs</key>
+            <key name="ChannelLongCodeMask"></key>
+            <section name="Cdma 2000 Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">1</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="RC3" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt76p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF16</key>
+              <key name="ChannelWalshCode">8</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC4" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt76p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF16</key>
+              <key name="ChannelWalshCode">8</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC5" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt76p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF16</key>
+              <key name="ChannelWalshCode">8</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC6" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt76p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF16</key>
+              <key name="ChannelWalshCode">8</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+          </section>
+          <section name="FCH" version="1">
+            <key name="ChannelState">true</key>
+            <key name="ChannelPower">-5.0000000000e+00</key>
+            <key name="ChannelBitSourceType">afGen_bsPrbs</key>
+            <key name="ChannelLongCodeMask"></key>
+            <section name="Cdma 2000 Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">1</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="RC3" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt76p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF16</key>
+              <key name="ChannelWalshCode">4</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC4" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt76p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF16</key>
+              <key name="ChannelWalshCode">4</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC5" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt76p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF16</key>
+              <key name="ChannelWalshCode">4</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC6" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt76p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF16</key>
+              <key name="ChannelWalshCode">4</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+          </section>
+          <section name="SCH1" version="1">
+            <key name="ChannelState">true</key>
+            <key name="ChannelPower">-3.0000000000e+00</key>
+            <key name="ChannelBitSourceType">afGen_bsPrbs</key>
+            <key name="ChannelLongCodeMask"></key>
+            <section name="Cdma 2000 Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">1</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="RC3" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt614p4</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF2</key>
+              <key name="ChannelWalshCode">1</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC4" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt76p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF4</key>
+              <key name="ChannelWalshCode">2</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC5" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt76p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF4</key>
+              <key name="ChannelWalshCode">2</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC6" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt76p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF4</key>
+              <key name="ChannelWalshCode">2</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+          </section>
+          <section name="SCH2" version="1">
+            <key name="ChannelState">false</key>
+            <key name="ChannelPower">0.0000000000e+00</key>
+            <key name="ChannelBitSourceType">afGen_bsPrbs</key>
+            <key name="ChannelLongCodeMask"></key>
+            <section name="Cdma 2000 Data Source Engine" version="1">
+              <key name="DataSourceType">afGen_bsPrbs</key>
+              <key name="PRBSType">afGen_ptPN9</key>
+              <key name="PRBSSeed">1</key>
+              <key name="PatternData">1</key>
+              <key name="FilePath"></key>
+              <key name="CurrentCsvFile"></key>
+              <key name="PRBSTapMask">1</key>
+              <key name="PRBSLength">9</key>
+            </section>
+            <section name="RC3" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt76p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF8</key>
+              <key name="ChannelWalshCode">6</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC4" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt76p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF8</key>
+              <key name="ChannelWalshCode">6</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC5" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt76p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF8</key>
+              <key name="ChannelWalshCode">6</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+            <section name="RC6" version="1">
+              <key name="ChannelSymbolRate">afGenCdma2000_srt76p8</key>
+              <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF8</key>
+              <key name="ChannelWalshCode">6</key>
+              <key name="ChannelUseQof">false</key>
+            </section>
+          </section>
+        </section>
+        <section name="Downlink RC1-RC2 Group" version="1">
+          <section name="Channel Config Array" version="1">
+            <key name="count">2</key>
+            <section name="0" version="1">
+              <key name="Downlink Channel Type">afGenCdma2000_ctPICH</key>
+              <section name="PICH" version="1">
+                <key name="ChannelState">true</key>
+                <key name="ChannelPower">0.0000000000e+00</key>
+                <key name="ChannelBitSourceType">afGen_bsZeros</key>
+                <key name="ChannelLongCodeMask"></key>
+                <section name="Cdma 2000 Data Source Engine" version="1">
+                  <key name="DataSourceType">afGen_bsZeros</key>
+                  <key name="PRBSType">afGen_ptPN9</key>
+                  <key name="PRBSSeed">1</key>
+                  <key name="PatternData">1</key>
+                  <key name="FilePath"></key>
+                  <key name="CurrentCsvFile"></key>
+                  <key name="PRBSTapMask">1</key>
+                  <key name="PRBSLength">9</key>
+                </section>
+                <section name="RC1" version="1">
+                  <key name="ChannelSymbolRate">afGenCdma2000_srt19p2</key>
+                  <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF64</key>
+                  <key name="ChannelWalshCode">0</key>
+                  <key name="ChannelUseQof">false</key>
+                </section>
+                <section name="RC2" version="1">
+                  <key name="ChannelSymbolRate">afGenCdma2000_srt19p2</key>
+                  <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF64</key>
+                  <key name="ChannelWalshCode">0</key>
+                  <key name="ChannelUseQof">false</key>
+                </section>
+              </section>
+            </section>
+            <section name="1" version="1">
+              <key name="Downlink Channel Type">afGenCdma2000_ctSYNCH</key>
+              <section name="SYNCH" version="1">
+                <key name="ChannelState">true</key>
+                <key name="ChannelPower">0.0000000000e+00</key>
+                <key name="ChannelBitSourceType">afGen_bsPrbs</key>
+                <key name="ChannelLongCodeMask"></key>
+                <section name="Cdma 2000 Data Source Engine" version="1">
+                  <key name="DataSourceType">afGen_bsPrbs</key>
+                  <key name="PRBSType">afGen_ptPN9</key>
+                  <key name="PRBSSeed">1</key>
+                  <key name="PatternData">1</key>
+                  <key name="FilePath"></key>
+                  <key name="CurrentCsvFile"></key>
+                  <key name="PRBSTapMask">1</key>
+                  <key name="PRBSLength">9</key>
+                </section>
+                <section name="RC1" version="1">
+                  <key name="ChannelSymbolRate">afGenCdma2000_srt4p8</key>
+                  <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF64</key>
+                  <key name="ChannelWalshCode">32</key>
+                  <key name="ChannelUseQof">false</key>
+                </section>
+                <section name="RC2" version="1">
+                  <key name="ChannelSymbolRate">afGenCdma2000_srt4p8</key>
+                  <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF64</key>
+                  <key name="ChannelWalshCode">32</key>
+                  <key name="ChannelUseQof">false</key>
+                </section>
+              </section>
+            </section>
+          </section>
+        </section>
+        <section name="Downlink RC3-RC5 Group" version="1">
+          <section name="Channel Config Array" version="1">
+            <key name="count">2</key>
+            <section name="0" version="1">
+              <key name="Downlink Channel Type">afGenCdma2000_ctPICH</key>
+              <section name="PICH" version="1">
+                <key name="ChannelState">false</key>
+                <key name="ChannelPower">0.0000000000e+00</key>
+                <key name="ChannelBitSourceType">afGen_bsZeros</key>
+                <key name="ChannelLongCodeMask"></key>
+                <section name="Cdma 2000 Data Source Engine" version="1">
+                  <key name="DataSourceType">afGen_bsZeros</key>
+                  <key name="PRBSType">afGen_ptPN9</key>
+                  <key name="PRBSSeed">1</key>
+                  <key name="PatternData">1</key>
+                  <key name="FilePath"></key>
+                  <key name="CurrentCsvFile"></key>
+                  <key name="PRBSTapMask">1</key>
+                  <key name="PRBSLength">9</key>
+                </section>
+                <section name="RC3" version="1">
+                  <key name="ChannelSymbolRate">afGenCdma2000_srt19p2</key>
+                  <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF64</key>
+                  <key name="ChannelWalshCode">0</key>
+                  <key name="ChannelUseQof">false</key>
+                </section>
+                <section name="RC4" version="1">
+                  <key name="ChannelSymbolRate">afGenCdma2000_srt19p2</key>
+                  <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF64</key>
+                  <key name="ChannelWalshCode">0</key>
+                  <key name="ChannelUseQof">false</key>
+                </section>
+                <section name="RC5" version="1">
+                  <key name="ChannelSymbolRate">afGenCdma2000_srt19p2</key>
+                  <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF64</key>
+                  <key name="ChannelWalshCode">0</key>
+                  <key name="ChannelUseQof">false</key>
+                </section>
+              </section>
+            </section>
+            <section name="1" version="1">
+              <key name="Downlink Channel Type">afGenCdma2000_ctSYNCH</key>
+              <section name="SYNCH" version="1">
+                <key name="ChannelState">false</key>
+                <key name="ChannelPower">0.0000000000e+00</key>
+                <key name="ChannelBitSourceType">afGen_bsPrbs</key>
+                <key name="ChannelLongCodeMask"></key>
+                <section name="Cdma 2000 Data Source Engine" version="1">
+                  <key name="DataSourceType">afGen_bsPrbs</key>
+                  <key name="PRBSType">afGen_ptPN9</key>
+                  <key name="PRBSSeed">1</key>
+                  <key name="PatternData">1</key>
+                  <key name="FilePath"></key>
+                  <key name="CurrentCsvFile"></key>
+                  <key name="PRBSTapMask">1</key>
+                  <key name="PRBSLength">9</key>
+                </section>
+                <section name="RC3" version="1">
+                  <key name="ChannelSymbolRate">afGenCdma2000_srt4p8</key>
+                  <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF64</key>
+                  <key name="ChannelWalshCode">32</key>
+                  <key name="ChannelUseQof">false</key>
+                </section>
+                <section name="RC4" version="1">
+                  <key name="ChannelSymbolRate">afGenCdma2000_srt4p8</key>
+                  <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF64</key>
+                  <key name="ChannelWalshCode">32</key>
+                  <key name="ChannelUseQof">false</key>
+                </section>
+                <section name="RC5" version="1">
+                  <key name="ChannelSymbolRate">afGenCdma2000_srt4p8</key>
+                  <key name="ChannelSpreadingFactor">afGenCdma2000_sftSF64</key>
+                  <key name="ChannelWalshCode">32</key>
+                  <key name="ChannelUseQof">false</key>
+                </section>
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+      <section name="RFControlSettings" version="1">
+        <key name="CentreFrequency">2.000000000000000000e+09</key>
+        <key name="CentreLevel">0.000000000000000000e+00</key>
+        <key name="RFOn">true</key>
+        <key name="Play">false</key>
+        <key name="SingleShot">false</key>
+        <key name="CurrentArbFile"></key>
+      </section>
+      <section name="GraphicsSettings" version="1"/>
+      <section name="ui" version="2">
+        <section name="windows" version="2">
+          <key name="count">1</key>
+          <section name="0" version="1">
+            <section name="layouts" version="1">
+              <key name="count">1</key>
+              <section name="0" version="1">
+                <section name="views" version="1">
+                  <key name="count">4</key>
+                  <section name="0" version="1">
+                    <key name="uid">ModulationParameterSettingsNormal</key>
+                    <key name="wid">8683e42f-4d26-4a7d-94b9-20dc6b642f78</key>
+                    <section name="user" version="1"/>
+                  </section>
+                  <section name="1" version="1">
+                    <key name="uid">FilterParameterSettings</key>
+                    <key name="wid">d72f2b3d-6fd9-4835-9626-023e46fe740f</key>
+                    <section name="user" version="1"/>
+                  </section>
+                  <section name="2" version="1">
+                    <key name="uid">ImpairmentParameterSettings</key>
+                    <key name="wid">86e7f682-4e74-4126-b7ab-c06ed6ae8b67</key>
+                    <section name="user" version="1"/>
+                  </section>
+                  <section name="3" version="1">
+                    <key name="uid">GraphicsPanel</key>
+                    <key name="wid">5ed1c3ca-1dd7-4312-bb5a-74c2b37495c3</key>
+                    <section name="user" version="3">
+                      <key name="CurrentGraph">Constellation</key>
+                      <key name="Deactivated">false</key>
+                      <section name="MarkerSettings" version="2">
+                        <section name="Marker 1" version="3">
+                          <section name="Polar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="XPolar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Samples" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Frequency" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="PowerCcdf" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                        </section>
+                        <section name="Marker 2" version="3">
+                          <section name="Polar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="XPolar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Samples" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Frequency" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="PowerCcdf" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                        </section>
+                        <section name="Marker 3" version="3">
+                          <section name="Polar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="XPolar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Samples" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Frequency" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="PowerCcdf" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                        </section>
+                        <section name="Marker 4" version="3">
+                          <section name="Polar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="XPolar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Samples" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Frequency" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="PowerCcdf" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                        </section>
+                        <section name="Delta" version="3">
+                          <section name="Polar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="XPolar" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Samples" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="Frequency" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                          <section name="PowerCcdf" version="1">
+                            <key name="XValue">0.000000000000000000e+00</key>
+                            <key name="Enabled">false</key>
+                            <key name="Hidden">false</key>
+                          </section>
+                        </section>
+                      </section>
+                      <section name="PlotSettings" version="1">
+                        <key name="Graticule">true</key>
+                      </section>
+                      <section name="IQ Vector" version="3">
+                        <section name="IQ Vector" version="3">
+                          <key name="PlotAllData">true</key>
+                        </section>
+                        <section name="XPolar" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <section name="YPolar" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-3.000000000000000000e+00</key>
+                          <key name="Max">3.000000000000000000e+00</key>
+                        </section>
+                        <key name="IsVectorPlot">true</key>
+                        <section name="IQ" version="1"/>
+                      </section>
+                      <section name="IQ vs Time" version="3">
+                        <section name="IQ vs Time" version="3">
+                          <key name="PlotAllData">true</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-1.000000000000000000e+00</key>
+                          <key name="DefMax">1.000000000000000000e+00</key>
+                          <key name="Min">-1.000000000000000000e+00</key>
+                          <key name="Max">1.000000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.147483647000000000e+09</key>
+                          <key name="DefMax">2.147483646000000000e+09</key>
+                          <key name="Min">-2.147483647000000000e+09</key>
+                          <key name="Max">2.147483646000000000e+09</key>
+                        </section>
+                        <section name="I" version="1"/>
+                        <section name="Q" version="1"/>
+                      </section>
+                      <section name="Phase vs Time" version="3">
+                        <section name="Phase vs Time" version="3">
+                          <key name="PlotAllData">true</key>
+                          <key name="Function">0</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-4.000000000000000000e+00</key>
+                          <key name="DefMax">4.000000000000000000e+00</key>
+                          <key name="Min">-4.000000000000000000e+00</key>
+                          <key name="Max">4.000000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.147483647000000000e+09</key>
+                          <key name="DefMax">2.147483646000000000e+09</key>
+                          <key name="Min">-2.147483647000000000e+09</key>
+                          <key name="Max">2.147483646000000000e+09</key>
+                        </section>
+                      </section>
+                      <section name="Power vs Time" version="4">
+                        <section name="Power vs Time" version="4">
+                          <key name="PlotAllData">true</key>
+                          <key name="Function">0</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-9.000000000000000000e+01</key>
+                          <key name="DefMax">1.000000000000000000e+01</key>
+                          <key name="Min">-9.000000000000000000e+01</key>
+                          <key name="Max">1.000000000000000000e+01</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.147483647000000000e+09</key>
+                          <key name="DefMax">2.147483646000000000e+09</key>
+                          <key name="Min">-2.147483647000000000e+09</key>
+                          <key name="Max">2.147483646000000000e+09</key>
+                        </section>
+                      </section>
+                      <section name="Freq vs Time" version="3">
+                        <section name="Freq vs Time" version="3">
+                          <key name="PlotAllData">true</key>
+                          <key name="Function">0</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-2.500000000000000000e+04</key>
+                          <key name="DefMax">2.500000000000000000e+04</key>
+                          <key name="Min">-2.500000000000000000e+04</key>
+                          <key name="Max">2.500000000000000000e+04</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.147483647000000000e+09</key>
+                          <key name="DefMax">2.147483646000000000e+09</key>
+                          <key name="Min">-2.147483647000000000e+09</key>
+                          <key name="Max">2.147483646000000000e+09</key>
+                        </section>
+                      </section>
+                      <section name="Spectrum" version="4">
+                        <section name="Spectrum" version="4">
+                          <key name="WindowApplied">true</key>
+                          <key name="AnnotationDisplayed">true</key>
+                          <key name="Function">0</key>
+                        </section>
+                      </section>
+                      <section name="Scales" version="1">
+                        <section name="Samples" version="1">
+                          <key name="DefMin">-1.000000000000000000e+00</key>
+                          <key name="DefMax">-1.000000000000000000e+00</key>
+                          <key name="Min">-1.000000000000000000e+00</key>
+                          <key name="Max">1.000000000000000000e+00</key>
+                        </section>
+                      </section>
+                      <section name="Code Domain" version="1">
+                        <section name="y" version="1">
+                          <key name="DefMin">-1.000000000000000000e+02</key>
+                          <key name="DefMax">0.000000000000000000e+00</key>
+                          <key name="Min">-1.000000000000000000e+02</key>
+                          <key name="Max">0.000000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-1.000000000000000000e+03</key>
+                          <key name="DefMax">1.000000000000000000e+03</key>
+                          <key name="Min">-1.000000000000000000e+03</key>
+                          <key name="Max">1.000000000000000000e+03</key>
+                        </section>
+                        <section name="Code Domain" version="1">
+                          <key name="LiveEnabled">true</key>
+                        </section>
+                      </section>
+                      <section name="IQ vs Time (Wrapped)" version="3">
+                        <section name="y" version="1">
+                          <key name="DefMin">-1.000000000000000000e+00</key>
+                          <key name="DefMax">1.000000000000000000e+00</key>
+                          <key name="Min">-1.000000000000000000e+00</key>
+                          <key name="Max">1.000000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.147483647000000000e+09</key>
+                          <key name="DefMax">2.147483646000000000e+09</key>
+                          <key name="Min">-2.147483647000000000e+09</key>
+                          <key name="Max">2.147483646000000000e+09</key>
+                        </section>
+                        <section name="I" version="1"/>
+                        <section name="Q" version="1"/>
+                      </section>
+                      <section name="Constellation" version="3">
+                        <section name="Constellation" version="3">
+                          <key name="PlotAllData">false</key>
+                        </section>
+                        <section name="XPolar" version="1">
+                          <key name="DefMin">-1.500000000000000000e+00</key>
+                          <key name="DefMax">1.500000000000000000e+00</key>
+                          <key name="Min">-1.500000000000000000e+00</key>
+                          <key name="Max">1.500000000000000000e+00</key>
+                        </section>
+                        <section name="YPolar" version="1">
+                          <key name="DefMin">-1.500000000000000000e+00</key>
+                          <key name="DefMax">1.500000000000000000e+00</key>
+                          <key name="Min">-1.500000000000000000e+00</key>
+                          <key name="Max">1.500000000000000000e+00</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-2.598014888337468964e+00</key>
+                          <key name="Max">2.598014888337468964e+00</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">-3.000000000000000000e+00</key>
+                          <key name="DefMax">3.000000000000000000e+00</key>
+                          <key name="Min">-1.500000000000000000e+00</key>
+                          <key name="Max">1.500000000000000000e+00</key>
+                        </section>
+                        <key name="IsVectorPlot">false</key>
+                        <section name="IQ" version="1"/>
+                      </section>
+                      <section name="CCDF" version="4">
+                        <section name="CCDF" version="4">
+                          <key name="WindowApplied">true</key>
+                          <key name="AnnotationDisplayed">true</key>
+                          <key name="Function">0</key>
+                        </section>
+                        <section name="y" version="1">
+                          <key name="DefMin">0.000000000000000000e+00</key>
+                          <key name="DefMax">1.000000000000000000e+02</key>
+                          <key name="Min">0.000000000000000000e+00</key>
+                          <key name="Max">1.000000000000000000e+02</key>
+                        </section>
+                        <section name="x" version="1">
+                          <key name="DefMin">-2.000000000000000000e+01</key>
+                          <key name="DefMax">1.500000000000000000e+01</key>
+                          <key name="Min">-2.000000000000000000e+01</key>
+                          <key name="Max">1.500000000000000000e+01</key>
+                        </section>
+                      </section>
+                    </section>
+                  </section>
+                </section>
+                <key name="uid">f7c2184d-639f-4407-8273-f8f54cef1873</key>
+                <key name="layout"></key>
+              </section>
+            </section>
+            <key name="uid">c807f74a-56b3-4cbb-b779-09f5939a18cb</key>
+            <key name="width">912</key>
+            <key name="height">845</key>
+          </section>
+        </section>
+        <key name="preventActivate">false</key>
+        <key name="uid">576FEBC7-5E26-4e80-A55F-15F05637DE0E</key>
+      </section>
+    </section>
+  </section>
+
+</settings>

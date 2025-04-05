@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PinLevelsFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xmlns="http://www.ni.com/Semiconductor/PinLevels">
+  <PinLevelsSheet>
+    <DigitalPinLevelSets>
+      <DigitalPinLevelSet pin="PA_EN">
+        <Vil>0</Vil>
+        <Vih>3.3</Vih>
+        <Vol>0.9</Vol>
+        <Voh>0.9</Voh>
+        <Vterm>0.9</Vterm>
+        <TerminationMode>Vterm</TerminationMode>
+      </DigitalPinLevelSet>
+      <DigitalPinLevelSet pin="LNA_EN">
+        <Vil>0</Vil>
+        <Vih>3.3</Vih>
+        <Vol>0.9</Vol>
+        <Voh>0.9</Voh>
+        <Vterm>0.9</Vterm>
+        <TerminationMode>Vterm</TerminationMode>
+      </DigitalPinLevelSet>
+    </DigitalPinLevelSets>
+    <PpmuPinLevelSets>
+      <PpmuPinLevelSet pin="PA_EN">
+        <Vf>3.3</Vf>
+      </PpmuPinLevelSet>
+      <PpmuPinLevelSet pin="LNA_EN">
+        <Vf>3.3</Vf>
+      </PpmuPinLevelSet>
+    </PpmuPinLevelSets>
+    <PowerPinLevelSets>
+      <PowerPinLevelSet pin="VCC1">
+        <Vf>5</Vf>
+        <Ic>0.5</Ic>
+      </PowerPinLevelSet>
+      <PowerPinLevelSet pin="VCC2">
+        <Vf>5</Vf>
+        <Ic>0.5</Ic>
+      </PowerPinLevelSet>
+      <PowerPinLevelSet pin="VDD">
+        <Vf>3.3</Vf>
+        <Ic>0.1</Ic>
+      </PowerPinLevelSet>
+      <PowerPinLevelSet pin="VDET">
+        <Vf>0</Vf>
+        <Ic>0</Ic>
+      </PowerPinLevelSet>
+    </PowerPinLevelSets>
+  </PinLevelsSheet>
+</PinLevelsFile>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TimingFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xmlns="http://www.ni.com/Semiconductor/Timing">
+  <TimingSheet>
+    <TimeSets>
+      <TimeSet name="SourceWait">
+        <Period>1 µs</Period>
+        <PinEdges>
+          <PinEdge pin="PA_EN">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>1 µs</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Tset used for waiting for source ready</Comment>
+          </PinEdge>
+          <PinEdge pin="LNA_EN">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>1 µs</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+            <Comment>Tset used for waiting for source ready</Comment>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+      <TimeSet name="TS">
+        <Period>ts.period</Period>
+        <PinEdges>
+          <PinEdge pin="Control_Pins">
+            <DriveNonReturn>
+              <On>0</On>
+              <Data>0</Data>
+              <Off>ts.period</Off>
+            </DriveNonReturn>
+            <CompareStrobe>
+              <Strobe>0.5*ts.period</Strobe>
+            </CompareStrobe>
+            <DataSource>Pattern</DataSource>
+          </PinEdge>
+        </PinEdges>
+      </TimeSet>
+    </TimeSets>
+  </TimingSheet>
+</TimingFile>

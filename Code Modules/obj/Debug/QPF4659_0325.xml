@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>QPF4659_0325</name>
+    </assembly>
+    <members>
+        <member name="T:QPF4659_0325.TestSteps">
+            <summary>
+            Partial class containing all test steps for the project.
+            This is declared as a partial class so that test code modules can be managed as unique methods in separate files.
+            </summary>
+        </member>
+        <member name="M:QPF4659_0325.TestSteps.TemplateTestStep(NationalInstruments.TestStand.SemiconductorModule.CodeModuleAPI.ISemiconductorModuleContext)">
+            <summary>
+            Call this method from the test executive to execute the test code.
+            </summary>
+            <param name="tsmContext">The <see cref="T:NationalInstruments.TestStand.SemiconductorModule.CodeModuleAPI.ISemiconductorModuleContext"/> object reference.</param>
+        </member>
+    </members>
+</doc>
