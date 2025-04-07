@@ -53,7 +53,7 @@
 	<Connections>
 		<Connection pin="ANT" siteNumber="0" instrument="RF_1" channel="B236" />
 		<Connection pin="ANT" siteNumber="1" instrument="RF_1" channel="B223" />
-		<Connection pin="CPLR" siteNumber="0" instrument="RF_1" channel="B229" />
+		<Connection pin="CPLR" siteNumber="0" instrument="RF_1" channel="B235" />
 		<Connection pin="CPLR" siteNumber="1" instrument="RF_1" channel="B224" />
 		<Connection pin="LNA_EN" siteNumber="0" instrument="P174_6571_C1_S14" channel="2" />
 		<Connection pin="LNA_EN" siteNumber="1" instrument="P134_6571_C1_S02" channel="18" />
