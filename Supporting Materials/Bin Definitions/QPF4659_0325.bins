@@ -8,8 +8,8 @@
   <SoftwareBins errorBin="2" defaultFailBin="2" defaultPassBin="1" alarmBin="99">
     <Bin name="Pass" number="1" hardwareBin="1" />
     <Bin name="Generic Failure" number="2" hardwareBin="2" />
-    <Bin name="Continuity" number="3" hardwareBin="2" />
-    <Bin name="Leakage" number="4" hardwareBin="2" />
+    <Bin name="Continuity" number="8" hardwareBin="2" />
+    <Bin name="Leakage" number="7" hardwareBin="2" />
     <Bin name="Alarm" number="99" hardwareBin="2" />
   </SoftwareBins>
 </BinDefinitions>
