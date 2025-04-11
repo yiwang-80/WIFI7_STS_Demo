@@ -1,0 +1,83 @@
+[33mcommit 0598986ecac5b984c13fe29a179ea085192971ef[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeat/production_flow[m[33m)[m
+Author: yiwang <yi.wang@emerson.com>
+Date:   Thu Apr 10 22:30:20 2025 -0500
+
+    add C sharp code to create a C sharp version continuity test
+
+[33mcommit d684603955508ead23767415a67fc5ae001ff654[m
+Author: yiwang <yi.wang@emerson.com>
+Date:   Wed Apr 9 16:09:44 2025 -0500
+
+    update the EVM test, add PA enable/disable starting from each loop, the device need a reset to test TXP after EVM
+
+[33mcommit 7eb9d3a8c2768f8707f492b9809b99b9913597ac[m
+Author: yiwang <yi.wang@emerson.com>
+Date:   Wed Apr 9 12:04:18 2025 -0500
+
+    update the NF test, adjust the reference level to achieve 2.x dB
+
+[33mcommit c0d0b0f41622dcaeec7fbbceb0cc497c2643d1dd[m[33m ([m[1;32mfeat/production_low_0408[m[33m)[m
+Author: yiwang <yi.wang@emerson.com>
+Date:   Tue Apr 8 12:30:59 2025 -0500
+
+    fix the p1dB test, need to increase the current limit to 1A to get this test work
+
+[33mcommit 47647a377fa0685d19392d7c13bcbad00f15410a[m
+Author: yiwang <yi.wang@emerson.com>
+Date:   Mon Apr 7 16:58:29 2025 -0500
+
+    Fix TX Servo test, but the Pout when servo done is not accurate, need to check if this is a software bug?
+
+[33mcommit aadfa7912cce7a062675237bbb4fe29e79028655[m
+Author: yiwang <yi.wang@emerson.com>
+Date:   Mon Apr 7 11:14:34 2025 -0500
+
+    fix the TX power servo issue, the waveform length is 260us, need to set the burst time to start from 1us to 255us, and burst the waveform in the same interval
+
+[33mcommit 53232dd97e026cf94136880d2d864c63c5ccce81[m
+Author: yiwang <yi.wang@emerson.com>
+Date:   Sun Apr 6 21:01:55 2025 -0500
+
+     move swith test to end of sequence as it will turn off the DUT
+
+[33mcommit 021506a7e7f20e48f570a5f7e9ac83f05363de59[m
+Author: yiwang <yi.wang@emerson.com>
+Date:   Sun Apr 6 19:55:48 2025 -0500
+
+    detele gain and SEM test outside the freq/power loop
+
+[33mcommit 0fcc42202631d24adf69c8a7b2291417fc38e25a[m
+Author: yiwang <yi.wang@emerson.com>
+Date:   Sun Apr 6 19:52:38 2025 -0500
+
+    fix the test numbers inside the freq/input power loop for tx tests
+
+[33mcommit 387ae4f00125b8010cd6a5908da1c5f3560f8f77[m
+Author: yiwang <yi.wang@emerson.com>
+Date:   Sun Apr 6 19:51:43 2025 -0500
+
+    fix the test numbers inside the freq/input power loop for tx tests
+
+[33mcommit 033da81d0305f3d449413803ad120b6e5e82ebb3[m
+Author: yiwang <yi.wang@emerson.com>
+Date:   Sun Apr 6 18:57:57 2025 -0500
+
+    fix the test numbers expect for TX tests in the seq loop
+
+[33mcommit a0b2e0349e0d54cf6c2beb4d5b72e243084b17be[m
+Author: yiwang <yi.wang@emerson.com>
+Date:   Sun Apr 6 18:17:28 2025 -0500
+
+    link test freq from LNA gain test and NF test
+
+[33mcommit 893f76d9140f25d9565e471e16bf901931407c17[m
+Author: yiwang <yi.wang@emerson.com>
+Date:   Sun Apr 6 16:35:52 2025 -0500
+
+     add two-port S parameter test to TX to ANT
+
+[33mcommit feb9c7785510d1b59d8a99bd0133be9ba9a02c83[m[33m ([m[1;32mmaster[m[33m)[m
+Author: yiwang <yi.wang@emerson.com>
+Date:   Sat Apr 5 10:45:45 2025 -0500
+
+    intail x2 program
