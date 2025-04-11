@@ -12,3 +12,17 @@ C:\Users\nitest\testprograms\sts_demo\QPF4659_0325\Code Modules\obj\Debug\QPF465
 C:\Users\nitest\testprograms\sts_demo\QPF4659_0325\Code Modules\obj\Debug\QPF4659_0325.dll
 C:\Users\nitest\testprograms\sts_demo\QPF4659_0325\Code Modules\obj\Debug\QPF4659_0325.xml
 C:\Users\nitest\testprograms\sts_demo\QPF4659_0325\Code Modules\obj\Debug\QPF4659_0325.pdb
+C:\Users\nitest\testprograms\QPF4659X2\Code Modules\bin\QPF4659_0325.dll
+C:\Users\nitest\testprograms\QPF4659X2\Code Modules\bin\QPF4659_0325.pdb
+C:\Users\nitest\testprograms\QPF4659X2\Code Modules\bin\QPF4659_0325.xml
+C:\Users\nitest\testprograms\QPF4659X2\Code Modules\bin\NationalInstruments.SemiconductorTestLibrary.Abstractions.dll
+C:\Users\nitest\testprograms\QPF4659X2\Code Modules\bin\NationalInstruments.SemiconductorTestLibrary.Extensions.dll
+C:\Users\nitest\testprograms\QPF4659X2\Code Modules\obj\Debug\QPF4659_0325.csproj.AssemblyReference.cache
+C:\Users\nitest\testprograms\QPF4659X2\Code Modules\obj\Debug\QPF4659_0325.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nitest\testprograms\QPF4659X2\Code Modules\obj\Debug\QPF4659_0325.AssemblyInfoInputs.cache
+C:\Users\nitest\testprograms\QPF4659X2\Code Modules\obj\Debug\QPF4659_0325.AssemblyInfo.cs
+C:\Users\nitest\testprograms\QPF4659X2\Code Modules\obj\Debug\QPF4659_0325.csproj.CoreCompileInputs.cache
+C:\Users\nitest\testprograms\QPF4659X2\Code Modules\obj\Debug\QPF4659_.AFC9FF2E.Up2Date
+C:\Users\nitest\testprograms\QPF4659X2\Code Modules\obj\Debug\QPF4659_0325.dll
+C:\Users\nitest\testprograms\QPF4659X2\Code Modules\obj\Debug\QPF4659_0325.xml
+C:\Users\nitest\testprograms\QPF4659X2\Code Modules\obj\Debug\QPF4659_0325.pdb

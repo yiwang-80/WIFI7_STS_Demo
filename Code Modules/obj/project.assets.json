@@ -56,17 +56,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nitest\\testprograms\\sts_demo\\QPF4659_0325\\Code Modules\\QPF4659_0325.csproj",
+      "projectUniqueName": "C:\\Users\\nitest\\testprograms\\QPF4659X2\\Code Modules\\QPF4659_0325.csproj",
       "projectName": "QPF4659_0325",
-      "projectPath": "C:\\Users\\nitest\\testprograms\\sts_demo\\QPF4659_0325\\Code Modules\\QPF4659_0325.csproj",
+      "projectPath": "C:\\Users\\nitest\\testprograms\\QPF4659X2\\Code Modules\\QPF4659_0325.csproj",
       "packagesPath": "C:\\Users\\nitest\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nitest\\testprograms\\sts_demo\\QPF4659_0325\\Code Modules\\obj\\",
+      "outputPath": "C:\\Users\\nitest\\testprograms\\QPF4659X2\\Code Modules\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\nitest\\testprograms\\sts_demo\\QPF4659_0325\\Code Modules\\NuGet.Config",
+        "C:\\Users\\nitest\\testprograms\\QPF4659X2\\Code Modules\\NuGet.Config",
         "C:\\Users\\nitest\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -75,7 +75,7 @@
         "net48"
       ],
       "sources": {
-        "C:\\Users\\nitest\\testprograms\\sts_demo\\QPF4659_0325\\Code Modules\\packages": {},
+        "C:\\Users\\nitest\\testprograms\\QPF4659X2\\Code Modules\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -105,7 +105,7 @@
             "version": "[25.0.0, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

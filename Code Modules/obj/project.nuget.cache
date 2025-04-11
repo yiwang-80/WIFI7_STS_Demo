@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DLuFZv5cToc=",
+  "dgSpecHash": "x68J1fBL7ak=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nitest\\testprograms\\sts_demo\\QPF4659_0325\\Code Modules\\QPF4659_0325.csproj",
+  "projectFilePath": "C:\\Users\\nitest\\testprograms\\QPF4659X2\\Code Modules\\QPF4659_0325.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nitest\\.nuget\\packages\\nationalinstruments.semiconductortestlibrary\\25.0.0\\nationalinstruments.semiconductortestlibrary.25.0.0.nupkg.sha512"
   ],

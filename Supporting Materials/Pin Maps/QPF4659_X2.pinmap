@@ -18,6 +18,9 @@
 		<NIDCPowerInstrument name="P131_4147_C1_S03" numberOfChannels="4">
 			<ChannelGroup name="CommonDCPowerChannelGroup" />
 		</NIDCPowerInstrument>
+		<NIDCPowerInstrument name="P122_4147_C1_S04" numberOfChannels="4">
+			<ChannelGroup name="CommonDCPowerChannelGroup" />
+		</NIDCPowerInstrument>
 	</Instruments>
 	<Pins>
 		<DUTPin name="VCC1" />
@@ -56,19 +59,19 @@
 		<Connection pin="CPLR" siteNumber="0" instrument="RF_1" channel="B235" />
 		<Connection pin="CPLR" siteNumber="1" instrument="RF_1" channel="B224" />
 		<Connection pin="LNA_EN" siteNumber="0" instrument="P174_6571_C1_S14" channel="2" />
-		<Connection pin="LNA_EN" siteNumber="1" instrument="P134_6571_C1_S02" channel="18" />
+		<Connection pin="LNA_EN" siteNumber="1" instrument="P134_6571_C1_S02" channel="2" />
 		<Connection pin="PA_EN" siteNumber="0" instrument="P174_6571_C1_S14" channel="0" />
-		<Connection pin="PA_EN" siteNumber="1" instrument="P134_6571_C1_S02" channel="16" />
+		<Connection pin="PA_EN" siteNumber="1" instrument="P134_6571_C1_S02" channel="0" />
 		<Connection pin="RX" siteNumber="0" instrument="RF_1" channel="B228" />
 		<Connection pin="RX" siteNumber="1" instrument="RF_1" channel="B216" />
 		<Connection pin="TX" siteNumber="0" instrument="RF_1" channel="B227" />
 		<Connection pin="TX" siteNumber="1" instrument="RF_1" channel="B214" />
 		<Connection pin="VCC1" siteNumber="0" instrument="P162_4147_C1_S16" channel="0" />
-		<Connection pin="VCC1" siteNumber="1" instrument="P131_4147_C1_S03" channel="0" />
+		<Connection pin="VCC1" siteNumber="1" instrument="P122_4147_C1_S04" channel="1" />
 		<Connection pin="VCC2" siteNumber="0" instrument="P162_4147_C1_S16" channel="1" />
-		<Connection pin="VCC2" siteNumber="1" instrument="P131_4147_C1_S03" channel="1" />
+		<Connection pin="VCC2" siteNumber="1" instrument="P122_4147_C1_S04" channel="0" />
 		<Connection pin="VDD" siteNumber="0" instrument="P162_4147_C1_S16" channel="2" />
-		<Connection pin="VDD" siteNumber="1" instrument="P131_4147_C1_S03" channel="2" />
+		<Connection pin="VDD" siteNumber="1" instrument="P122_4147_C1_S04" channel="2" />
 		<Connection pin="VDET" siteNumber="0" instrument="P174_6571_C1_S14" channel="31" />
 		<Connection pin="VDET" siteNumber="1" instrument="P134_6571_C1_S02" channel="31" />
 	</Connections>

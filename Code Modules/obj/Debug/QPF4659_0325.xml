@@ -10,7 +10,7 @@
             This is declared as a partial class so that test code modules can be managed as unique methods in separate files.
             </summary>
         </member>
-        <member name="M:QPF4659_0325.TestSteps.TemplateTestStep(NationalInstruments.TestStand.SemiconductorModule.CodeModuleAPI.ISemiconductorModuleContext)">
+        <member name="M:QPF4659_0325.TestSteps.Continuity(NationalInstruments.TestStand.SemiconductorModule.CodeModuleAPI.ISemiconductorModuleContext,System.String[],System.String[],System.Double,System.Double,System.Double,System.Double)">
             <summary>
             Call this method from the test executive to execute the test code.
             </summary>
