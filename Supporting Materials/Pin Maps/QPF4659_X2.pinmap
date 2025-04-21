@@ -54,7 +54,7 @@
 		<Site siteNumber="1" />
 	</Sites>
 	<Connections>
-		<Connection pin="ANT" siteNumber="0" instrument="RF_1" channel="B236" />
+		<Connection pin="ANT" siteNumber="0" instrument="RF_1" channel="B233" />
 		<Connection pin="ANT" siteNumber="1" instrument="RF_1" channel="B223" />
 		<Connection pin="CPLR" siteNumber="0" instrument="RF_1" channel="B235" />
 		<Connection pin="CPLR" siteNumber="1" instrument="RF_1" channel="B224" />
