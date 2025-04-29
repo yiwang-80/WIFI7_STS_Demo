@@ -26,3 +26,4 @@ C:\Users\nitest\testprograms\QPF4659X2\Code Modules\obj\Debug\QPF4659_.AFC9FF2E.
 C:\Users\nitest\testprograms\QPF4659X2\Code Modules\obj\Debug\QPF4659_0325.dll
 C:\Users\nitest\testprograms\QPF4659X2\Code Modules\obj\Debug\QPF4659_0325.xml
 C:\Users\nitest\testprograms\QPF4659X2\Code Modules\obj\Debug\QPF4659_0325.pdb
+C:\Users\nitest\testprograms\QPF4659X2\Code Modules\obj\Debug\QPF4659_0325.sourcelink.json

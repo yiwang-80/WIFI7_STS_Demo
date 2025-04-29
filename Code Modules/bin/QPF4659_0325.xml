@@ -5,16 +5,22 @@
     </assembly>
     <members>
         <member name="T:QPF4659_0325.TestSteps">
-            <summary>
-            Partial class containing all test steps for the project.
-            This is declared as a partial class so that test code modules can be managed as unique methods in separate files.
-            </summary>
+            <summary>  
+            Partial class containing all test steps for the project.  
+            This is declared as a partial class so that test code modules can be managed as unique methods in separate files.  
+            </summary>  
         </member>
         <member name="M:QPF4659_0325.TestSteps.Continuity(NationalInstruments.TestStand.SemiconductorModule.CodeModuleAPI.ISemiconductorModuleContext,System.String[],System.String[],System.Double,System.Double,System.Double,System.Double)">
-            <summary>
-            Call this method from the test executive to execute the test code.
-            </summary>
-            <param name="tsmContext">The <see cref="T:NationalInstruments.TestStand.SemiconductorModule.CodeModuleAPI.ISemiconductorModuleContext"/> object reference.</param>
+            <summary>  
+            Call this method from the test executive to execute the test code.  
+            </summary>  
+            <param name="tsmContext">The <see cref="T:NationalInstruments.TestStand.SemiconductorModule.CodeModuleAPI.ISemiconductorModuleContext"/> object reference.</param>  
+            <param name="ppmuPinNames"></param>  
+            <param name="dcPinNames"></param>  
+            <param name="pmuForceCurrentHi"></param>  
+            <param name="pmuForceCurrentLo"></param>  
+            <param name="pmuApertureTime"></param>  
+            <param name="dcApertureTime"></param>  
         </member>
     </members>
 </doc>
